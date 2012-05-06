@@ -1,0 +1,166 @@
+ // Remplace les flèches précédent / suivant par du texte simple
+@media screen and (max-width: 1082px) {
+    #news, .post {
+         .navigation {
+            clear: both;
+            text-align: center;
+            li {
+                .inline-block;
+                margin: 1em 1%;
+                &:first-child {
+                    margin-right: 2em;
+                }
+                a {
+                    background-image: none;
+                    position: static;
+                    height: auto;
+                    text-indent: 0; 
+                    width: auto;
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body { font-size: 12px !important }
+}
+
+
+@media screen and (max-width: 680px) {
+    #header {
+        .languages li a {
+            height: 2em;
+            line-height: 2em;
+        }
+        .help-translation { 
+            background-image: none;
+            font-size:11px;
+            height: auto;
+            position: absolute;
+            right: 2%;
+            text-indent: 0;
+            top: 20px;
+            text-align: right;
+            width: auto;
+        }
+        .social {
+            display: none;
+        }
+        .baseline {
+            margin-left:0;
+            width: 80%;
+            padding-left: 20%;
+            padding-bottom: 2%;
+        }
+        
+    }
+    nav {
+        margin-left: 0;
+        ul li.current-menu-item a {
+            background-position: center -.2em;
+        }
+    }
+    #content {
+        #news {
+            article {
+                .column(2);
+                margin-top: 0.667em !important;
+                margin-bottom: 0.667em !important;
+            }
+        }
+        #highlighted {
+            header, .preview { float:none; margin: 0; padding: 0; position: static; width: 100%;   }
+            .preview {
+                text-align: center;
+            }
+            header {
+                .meta {
+                    .inline-block;
+                    border-bottom: 0.733em solid #000;
+                    vertical-align: middle;
+                    margin: 0 1em;
+                    padding: 1.4em 0 .5em;
+                }
+                h2 {
+                    border-top:0;
+                    margin: 0 0.6em;
+                    padding: 0.2em 0 0.6em;
+                    vertical-align:middle;
+                }
+            }
+        }
+    }
+    #about-webarchivists .portraits .portrait {
+        .column(2);
+    }
+    #first-time {
+        padding: 1.2em 1.2em 0.467em;
+        .message { padding-right: 0 }
+    }
+    #footer {
+        min-height: 0;
+        .credit, .sections, .contact, .commons { display: block; margin: 0; width: auto; }
+        ul li {
+            display: inline;
+            &:after { content: " |" }
+            &:last-child:after { content: "" }
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    nav ul li { font-size: 1.35em }
+}
+
+@media screen and (max-width: 420px) {
+    .ie7 #news article {
+        height: auto;
+    }
+    nav {
+        padding-bottom: 0.733em;
+        ul li {
+            font-size: 1.2em;
+            a {
+                &.active { background-position: center -.4em }
+            }
+        }
+    }
+    #content {
+        #news article {
+            .column(4);
+            margin-top: 0.667em !important;
+            margin-bottom: 1.333em !important;
+        }
+    }
+    #about-webarchivists .portraits .portrait {
+        padding:4% 0;
+        .column(4);
+        img {
+            width: 22.5%;
+            float: left;
+            margin: 8% 2% 0 0;
+        }
+        h2 {
+            border: 0;
+            padding:0;
+        }
+        p, .links { margin-left: 24.5% }
+    }
+    #first-time {
+        padding: 1.2em .9em 0.467em;
+        .message {
+            background-position: center top; padding: 165px 0 0;
+            h2 { margin-bottom: .2em }
+            h2, p { padding: 0 }
+            .options {
+                text-align: center;
+                li {
+                    float:none;
+                    .inline-block;
+                }
+            }
+        }
+    }
+}

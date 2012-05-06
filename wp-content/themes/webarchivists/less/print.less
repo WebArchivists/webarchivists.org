@@ -1,0 +1,112 @@
+@media print {
+    
+    body {
+        font-size: 10pt;
+    }
+
+    blockquote, q {
+        font-style: italic;
+        quotes: "\00AB\00A0" "\00A0\00BB" "\0022" "\0022";
+    }
+
+    abbr, acronym {
+        border: 0;
+    }
+    abbr[title]:after,acronym[title]:after {
+        content: " (" attr(title) ")";
+        font-style: italic;
+    }
+
+    a {
+        text-decoration : none !important;
+        font-style: italic;
+        color: #000;
+        background-color: #fff;
+    }
+
+    pre, code, table {
+        page-break-inside : avoid !important;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        page-break-after : avoid !important;
+    }
+
+
+    #header {
+        .logo, h1 {
+            .inline-block;
+        }
+        .logo {
+            margin-right: 10pt;
+        }
+        h1, .baseline {
+            margin-left: 0;
+        }
+        .baseline {
+            border: 0;
+        }
+        .languages, .help-translation, .social {
+            display: none;
+        }
+    }
+
+    nav, #first-time, audio, video, .mejs-audio, .mejs-video  {
+        display: none !important;
+    }
+    
+    #about {
+        display: none;
+    }
+    
+    #footer {
+        color: #000;
+        min-height: 0;
+        line-height:1.5em;
+        text-align:left;
+        .credit, .commons { .inline-block; margin: 0 20px 0 0; width: auto; }
+        .sections, .contact { display: none }
+        .commons img:after{ content: attr(alt) }
+        ul li {
+            display: inline;
+            &:after { content: " |" }
+            &:last-child:after { content: "" }
+        }
+    }
+    
+    #about-webarchivists {
+        .portrait, .portrait h2 {
+            border:0 !important;
+        }
+    }
+
+    #news {
+        article {
+            header {
+                .meta {
+                    border:0 !important;
+                    time {
+                        display: block;
+                    }
+                    .country, .nb-comments {
+                        .inline-block;
+                        color: #000;
+                        font: 8pt/1em DINLightAlternate, sans-serif;
+                        float:none;
+                        letter-spacing: normal;
+                        margin: 0;
+                        padding: 0;
+                        text-align:left;
+                        text-indent: 0;
+                        height: auto;
+                        width: auto;
+                    }
+                    .nb-comments {
+                        &:after { content: " |" }
+                        span { display: inline; margin-left:.5em; }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.js {
+    #first-time {
+
+        display: none;
+        -webkit-transform: scale(.1);
+        -moz-transform: scale(.1);
+        -o-transform: scale(.1);
+        transform: scale(.1);
+        opacity: 0;
+
+        &.shown {
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -o-transform: scale(1);
+            transform: scale(1);
+
+            opacity: 1;
+
+            -webkit-transition-property: -webkit-transform, opacity;
+            -webkit-transition-duration: 300ms, 1s;
+            -webkit-transition-timing-function: ease-in-out, ease-in-out;
+
+            -moz-transition-property: -moz-transform, opacity;
+            -moz-transition-duration: 300ms, 1s;
+            -moz-transition-timing-function: ease-in-out, ease-in-out;
+
+            -o-transition-property: -o-transform, opacity;
+            -o-transition-duration: 300ms, 1s;
+            -o-transition-timing-function: ease-in-out, ease-in-out;
+
+            transition-property: transform, opacity;
+            transition-duration: 300ms, 1s;
+            transition-timing-function: ease-in-out, ease-in-out;
+        }
+    }
+}
