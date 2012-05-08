@@ -18,7 +18,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ) ?>/css/main.css" />
     
     <title><?php
 	/*
@@ -45,14 +44,16 @@
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+    <?php $theme_root = get_bloginfo('template_directory'); ?>
+
     <!--[if lt IE 9]>
-        <script src="js/respond.min.js"></script>
+        <script src="<?php echo $theme_root ?>/js/respond.min.js"></script>
         <![if lte IE 6]>
         <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
         <script> window.attachEvent( "onload", CFInstall.check );</script>
         <![endif]>
     <![endif]-->
-    <script src="js/libs/modernizr.custom.js"></script>
+    <script src="<?php echo $theme_root ?>/js/libs/modernizr.custom.js"></script>
 
     <?php
     	/* We add some JavaScript to pages with the comment form
@@ -74,7 +75,6 @@
     <header role="banner" id="header">
         <?php
             $title = esc_attr( get_bloginfo( 'name', 'display' ) );
-            $theme_root = get_bloginfo('template_directory');
         ?>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php echo $title ?>">
             <img class="logo" src="<?php echo $theme_root ?>/img/logo.png" alt="<?php echo $title; ?>">

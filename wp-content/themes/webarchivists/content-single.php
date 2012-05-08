@@ -22,13 +22,13 @@
 	</header><!-- .entry-header -->
 
     <aside>
-        <img src="img/article/thumb.jpg" alt="Image de l’article" />
+        <!-- <img src="img/article/thumb.jpg" alt="Image de l’article" /> -->
         <dl>
             <dt>Published:</dt>
-            <dd><time datetime="2012-02-21T15:41:27+00:00" pubdate="">October 17th 2012</time> <time datetime="2012-02-21T15:41:27+00:00" pubdate="" class="lastrev">(last revision: October 18th 2012)</time></dd>
+            <dd><time datetime="<?php echo get_the_date( 'c' ) ?>" pubdate><?php the_date() ?></time> <time datetime="<?php echo get_the_modified_date( 'c' ) ?>" class="lastrev">(last revision: <?php echo the_modified_date() ?>)</time></dd>
 
             <dt>Author(s):</dt>
-            <dd>Camille paloque berges</dd>
+            <dd><?php the_author() ?></dd>
 
             <dt>Organization:</dt>
             <dd>Webarchivists (FR)</dd>

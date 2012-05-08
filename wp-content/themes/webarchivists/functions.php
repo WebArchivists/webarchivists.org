@@ -1,5 +1,8 @@
 <?php
 
+/*
+ * Initialisation du thème
+ */
 add_action( 'after_setup_theme', 'webarchivists_setup' );
 
 function webarchivists_setup() {
@@ -66,6 +69,18 @@ function webarchivists_posted_on() {
 	);
 }
 
+function webarchivists_comments_info() {
+    $nb_comments = get_comments_number(); // get_comments_number returns only a numeric value
+	if ( $nb_comments == 0 ): ?>
+	    <a href="<?php echo esc_url( get_permalink() ) ?>#comments" title="<?php echo __( 'No comments' , 'webarchivists' ) ?>" class="nb-comments none"><span><?php echo __( 'No comments' , 'webarchivists' ) ?></span></a>
+	<?php else : ?>
+        <a href="<?php echo esc_url( get_permalink() ) ?>#comments" title="" class="nb-comments<?php if ($nb_comments > 10) echo ' hot' ?>"><?php echo $nb_comments ?><span><?php echo $nb_comments > 1 ? __( 'comments' , 'webarchivists' ) : __( 'comment' , 'webarchivists' ) ?></span></a>
+    <?php endif;
+}
+
+/*
+ * Template des commentaires
+ */
 function webarchivists_comment( $comment, $args, $depth ) {
 	$GLOBALS['comment'] = $comment;
 	switch ( $comment->comment_type ) :
@@ -83,12 +98,6 @@ function webarchivists_comment( $comment, $args, $depth ) {
 			<footer class="comment-meta">
 				<div class="comment-author vcard">
 					<?php
-						$avatar_size = 68;
-						if ( '0' != $comment->comment_parent )
-							$avatar_size = 39;
-
-						echo get_avatar( $comment, $avatar_size );
-
 						/* translators: 1: comment author, 2: date and time */
 						printf( __( '%1$s on %2$s <span class="says">said:</span>', 'twentyeleven' ),
 							sprintf( '<span class="fn">%s</span>', get_comment_author_link() ),
@@ -102,7 +111,7 @@ function webarchivists_comment( $comment, $args, $depth ) {
 					?>
 
 					<?php edit_comment_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-				</div><!-- .comment-author .vcard -->
+				</div>
 
 				<?php if ( $comment->comment_approved == '0' ) : ?>
 					<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'twentyeleven' ); ?></em>
@@ -115,13 +124,17 @@ function webarchivists_comment( $comment, $args, $depth ) {
 
 			<div class="reply">
 				<?php comment_reply_link( array_merge( $args, array( 'reply_text' => __( 'Reply <span>&darr;</span>', 'twentyeleven' ), 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
-			</div><!-- .reply -->
-		</article><!-- #comment-## -->
+			</div>
+		</article>
 
 	<?php
 			break;
 	endswitch;
 }
+
+/*
+ * « Walker » du menu de navigation
+ */
 
 class Webarchivists_Walker extends Walker_Nav_Menu
 {
