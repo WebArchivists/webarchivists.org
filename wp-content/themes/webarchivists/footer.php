@@ -38,6 +38,11 @@
     </small>
     <a class="to-top" href="#">Back to top</a>
 </footer>
+
+<?php if (is_page('about') ) : ?>
+<script src="<?php bloginfo('template_directory') ?>/js/libs/mep/mediaelement-and-player.min.js"></script>
+<?php endif; ?>
+
 <?php wp_footer(); ?>
 <script src="<?php bloginfo('template_directory') ?>/js/libs/jquery-1.7.1.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/js/scripts.js"></script>
