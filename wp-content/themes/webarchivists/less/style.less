@@ -459,7 +459,7 @@ nav {
 .page-content {
     font-family: DINLightAlternate;
     margin: 2% 0;
-    .wide {
+    .attachment-post-thumbnail {
         display: block;
         max-width: 96%;
         margin: 0 auto 2%
@@ -555,16 +555,30 @@ body.single-post .post {
             padding: 0.6em 0.4em 0.8em 0;
         }
         article {
+            .clearfix;
             background: #dbe6f1;
+            &.odd { background: #e5f0fb; }
             margin: .3em 0;
             padding: 1.6em;
             .meta {
+                font-family: DINMedium;
                 .clearfix;
-                time {
+                .date {
                     float: right;
+                    color: #000;
+                }
+                a[rel="external"] {
+                    display:block;
+                    margin-top: 2px;
+                    text-decoration: underline;
                 }
             }
+            .body {
+                margin-top: 15px;
+                .edit-link { float: right; margin-top: 5px; }
+            }
         }
+//        .children { margin-left:2%; }
     }
     .navigation {
         li a.prev {

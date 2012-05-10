@@ -35,15 +35,7 @@
 
             <dt>Tags:</dt>
             <dd>
-                <ul class="tags">
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">ipsum</a></li>
-                    <li><a href="#">dolor</a></li>
-                    <li><a href="#">sit</a></li>
-                    <li><a href="#">amet</a></li>
-                    <li><a href="#">lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#">dolor sit amet</a></li>
-                </ul>
+                <?php the_tags('<ul class="tags"><li>','</li><li>','</li></ul>'); ?>
             </dd>
         </dl>
     </aside>

@@ -40,17 +40,7 @@
 		</nav>
 		<?php endif; // check for comment navigation ?>
 
-		<ol class="commentlist">
-			<?php
-				/* Loop through and list the comments. Tell wp_list_comments()
-				 * to use webarchivists_comment() to format the comments.
-				 * If you want to overload this in a child theme then you can
-				 * define webarchivists_comment() and that will be used instead.
-				 * See webarchivists_comment() in webarchivists/functions.php for more.
-				 */
-				wp_list_comments( array( 'callback' => 'webarchivists_comment' ) );
-			?>
-		</ol>
+        <?php wp_list_comments( array( 'callback' => 'webarchivists_comment' ) ); ?>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav id="comment-nav-below">

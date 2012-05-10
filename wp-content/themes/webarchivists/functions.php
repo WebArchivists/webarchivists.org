@@ -87,50 +87,69 @@ function webarchivists_comment( $comment, $args, $depth ) {
 		case 'pingback' :
 		case 'trackback' :
 	?>
-	<li class="post pingback">
+	<article class="post pingback">
 		<p><?php _e( 'Pingback:', 'twentyeleven' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?></p>
+	</article>
 	<?php
 			break;
 		default :
 	?>
-	<li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
-		<article id="comment-<?php comment_ID(); ?>" class="comment">
-			<footer class="comment-meta">
-				<div class="comment-author vcard">
-					<?php
-						/* translators: 1: comment author, 2: date and time */
-						printf( __( '%1$s on %2$s <span class="says">said:</span>', 'twentyeleven' ),
-							sprintf( '<span class="fn">%s</span>', get_comment_author_link() ),
-							sprintf( '<a href="%1$s"><time pubdate datetime="%2$s">%3$s</time></a>',
-								esc_url( get_comment_link( $comment->comment_ID ) ),
-								get_comment_time( 'c' ),
-								/* translators: 1: date, 2: time */
-								sprintf( __( '%1$s at %2$s', 'twentyeleven' ), get_comment_date(), get_comment_time() )
-							)
-						);
-					?>
-
-					<?php edit_comment_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-				</div>
-
-				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'twentyeleven' ); ?></em>
-					<br />
-				<?php endif; ?>
-
-			</footer>
-
-			<div class="comment-content"><?php comment_text(); ?></div>
-
-			<div class="reply">
-				<?php comment_reply_link( array_merge( $args, array( 'reply_text' => __( 'Reply <span>&darr;</span>', 'twentyeleven' ), 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
+	<article id="comment-<?php comment_ID(); ?>" class="<?php comment_class(); ?>">
+		<footer class="meta">
+			<div class="comment-author vcard">
+				<?php
+				$dateformat = __( 'd/m/Y - g:iA', 'webarchivists' );
+    		    $date_i18n = date_i18n( $dateformat, strtotime( get_comment_time( 'c' ) ) );
+				printf( '<a class="date" href="%1$s"><time pubdate datetime="%2$s">%3$s</time></a>',
+				        esc_url( get_comment_link( $comment->comment_ID ) ),
+						get_comment_time( 'c' ),
+						$date_i18n,
+						esc_url( get_comment_link( $comment->comment_ID ) )
+				    );
+                ?>
+			    <?php echo get_comment_author() ?>
+                <?php comment_author_url_link(); ?>
 			</div>
-		</article>
+
+			<?php if ( $comment->comment_approved == '0' ) : ?>
+				<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'twentyeleven' ); ?></em>
+				<br />
+			<?php endif; ?>
+
+		</footer>
+
+		<div class="body">
+		    <?php comment_text(); ?>
+			<?php edit_comment_link( __( '[Edit]', 'webarchivists' ), '<span class="edit-link">', '</span>' ); ?>
+		</div>
+
+	</article>
 
 	<?php
 			break;
 	endswitch;
 }
+
+/*
+ * Support des thumbnails
+ */ 
+add_theme_support( 'post-thumbnails' ); 
+
+
+/*
+ * Modification des informations de contact d’un utilisateur
+ * (Admin et page «&nbsp;about&nbsp;»)
+ */
+function webarchivists_contactmethods( $contactmethods ) {
+    unset($contactmethods['aim']);
+    unset($contactmethods['yim']);
+    unset($contactmethods['jabber']);
+    $contactmethods['twitter'] = 'Twitter';
+    return $contactmethods;
+}
+add_filter('user_contactmethods', 'webarchivists_contactmethods');
+
+/* END Custom User Contact Info */
 
 /*
  * « Walker » du menu de navigation

@@ -1693,7 +1693,7 @@ nav  > ul  > li:first-child a {
   font-family: DINLightAlternate;
   margin: 2% 0;
 }
-.page-content .wide {
+.page-content .attachment-post-thumbnail {
   display: block;
   max-width: 96%;
   margin: 0 auto 2%;
@@ -1823,11 +1823,24 @@ body.single-post .post #comments h2 {
   padding: 0.6em 0.4em 0.8em 0;
 }
 body.single-post .post #comments article {
+  zoom: 1;
   background: #dbe6f1;
   margin: .3em 0;
   padding: 1.6em;
 }
+body.single-post .post #comments article:before,
+body.single-post .post #comments article:after {
+  content: "";
+  display: table;
+}
+body.single-post .post #comments article:after {
+  clear: both;
+}
+body.single-post .post #comments article.odd {
+  background: #e5f0fb;
+}
 body.single-post .post #comments article .meta {
+  font-family: DINMedium;
   zoom: 1;
 }
 body.single-post .post #comments article .meta:before,
@@ -1838,8 +1851,21 @@ body.single-post .post #comments article .meta:after {
 body.single-post .post #comments article .meta:after {
   clear: both;
 }
-body.single-post .post #comments article .meta time {
+body.single-post .post #comments article .meta .date {
   float: right;
+  color: #000;
+}
+body.single-post .post #comments article .meta a[rel="external"] {
+  display: block;
+  margin-top: 2px;
+  text-decoration: underline;
+}
+body.single-post .post #comments article .body {
+  margin-top: 15px;
+}
+body.single-post .post #comments article .body .edit-link {
+  float: right;
+  margin-top: 5px;
 }
 body.single-post .post .navigation li a.prev {
   top: 54px;
