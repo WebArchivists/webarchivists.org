@@ -9,7 +9,6 @@ get_header(); ?>
 
     <article class="page-content" id="about-webarchivists">
                 <?php the_post_thumbnail() ?>
-                <!-- <img src="img/about/team.jpg" alt="WebArchivists’ team" class="wide"> -->
 
                 <section class="intro">
                     <h2>About webarchivists.org</h2>

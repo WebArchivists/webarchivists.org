@@ -74,7 +74,7 @@ function webarchivists_comments_info() {
 	if ( $nb_comments == 0 ): ?>
 	    <a href="<?php echo esc_url( get_permalink() ) ?>#comments" title="<?php echo __( 'No comments' , 'webarchivists' ) ?>" class="nb-comments none"><span><?php echo __( 'No comments' , 'webarchivists' ) ?></span></a>
 	<?php else : ?>
-        <a href="<?php echo esc_url( get_permalink() ) ?>#comments" title="" class="nb-comments<?php if ($nb_comments > 10) echo ' hot' ?>"><?php echo $nb_comments ?><span><?php echo $nb_comments > 1 ? __( 'comments' , 'webarchivists' ) : __( 'comment' , 'webarchivists' ) ?></span></a>
+        <a href="<?php echo esc_url( get_permalink() ) ?>#comments" title="<?php echo $nb_comments . ' ' . ( $nb_comments > 1 ? __( 'comments' , 'webarchivists' ) : __( 'comment' , 'webarchivists' ) ) ?>" class="nb-comments<?php if ($nb_comments > 10) echo ' hot' ?>"><?php echo $nb_comments ?><span><?php echo $nb_comments > 1 ? __( 'comments' , 'webarchivists' ) : __( 'comment' , 'webarchivists' ) ?></span></a>
     <?php endif;
 }
 
@@ -94,7 +94,7 @@ function webarchivists_comment( $comment, $args, $depth ) {
 			break;
 		default :
 	?>
-	<article id="comment-<?php comment_ID(); ?>" class="<?php comment_class(); ?>">
+	<article id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
 		<footer class="meta">
 			<div class="comment-author vcard">
 				<?php
@@ -129,6 +129,17 @@ function webarchivists_comment( $comment, $args, $depth ) {
 			break;
 	endswitch;
 }
+
+/*
+ *
+ */
+function webarchivists_comments_form($args) {
+    $args['author'] = '<label for="author">'. __('Name') .'</label><input type="text" id="author" name="author" />';
+    $args['url'] = '<label for="url">'. __('URL') .'</label><input placeholder="' . __('http://www.address.tld') . '" type="url" id="url" name="url" />';
+    $args['email'] = '<label for="email">'. __('Email') .'</label><input placeholder="' . __('email@domain.tld') . '" type="email" id="email" name="email" />';
+    return $args;
+}
+add_filter('comment_form_default_fields','webarchivists_comments_form'); 
 
 /*
  * Support des thumbnails
