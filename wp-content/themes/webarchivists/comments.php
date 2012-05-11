@@ -59,6 +59,18 @@
 		<p class="nocomments"><?php _e( 'Comments are closed.', 'webarchivists' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+    <?php
+
+    $comments_args = array(
+        'title_reply'=> '<h3>' . __( 'Join the discussion' ) . '</h3>',
+        'comment_notes_before' => '',
+        'comment_notes_after' => '',
+        'comment_field' =>
+            '<textarea id="comment" name="comment" aria-required="true"></textarea>',
+    );
+
+    comment_form($comments_args);
+
+    ?>
 
 </div><!-- #comments -->

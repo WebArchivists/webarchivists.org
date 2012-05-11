@@ -578,7 +578,61 @@ body.single-post .post {
                 .edit-link { float: right; margin-top: 5px; }
             }
         }
-//        .children { margin-left:2%; }
+        #respond {
+            background: #b2bbc4;
+            margin-top: 10px;
+            padding: 5px 24px 20px;
+            h3 {
+                color: #fff;
+                font-family: DINMedium;
+                font-weight: normal;
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            
+            label, input {
+                .inline-block;
+                font-family: DINMedium;
+            }
+            label {
+                width: 50px;
+            }
+            
+            input[type="text"], input[type="url"], input[type="email"], textarea {
+                border-top: 1px solid #8c8c8c;
+                border-left: 1px solid #8c8c8c;
+                border-bottom: 1px solid #fff;
+                border-right: 1px solid #fff;
+                -webkit-border-top-left-radius: 2px;
+                -webkit-border-bottom-right-radius: 2px;
+                -moz-border-radius-topleft: 2px;
+                -moz-border-radius-bottomright: 2px;
+                border-top-left-radius: 2px;
+                border-bottom-right-radius: 2px;
+            }
+            input[type="text"], input[type="url"], input[type="email"], {
+                font: normal normal 15px/28px DINMedium;
+                height: 28px;
+                margin-bottom: 10px;
+                padding: 0 10px;
+                vertical-align: middle;
+                width:350px;
+            }
+            input[type="text"] {
+                font-family: DINLightAlternate;
+            }
+            input[type="url"], input[type="email"] {
+                color: blue;
+                text-decoration:underline;
+            }
+            
+            textarea {
+                min-height: 188px;
+                width: 416px;
+            }
+            
+        }
+
     }
     .navigation {
         li a.prev {

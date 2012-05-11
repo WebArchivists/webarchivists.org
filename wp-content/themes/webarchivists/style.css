@@ -1867,6 +1867,66 @@ body.single-post .post #comments article .body .edit-link {
   float: right;
   margin-top: 5px;
 }
+body.single-post .post #comments #respond {
+  background: #b2bbc4;
+  margin-top: 10px;
+  padding: 5px 24px 20px;
+}
+body.single-post .post #comments #respond h3 {
+  color: #fff;
+  font-family: DINMedium;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+body.single-post .post #comments #respond label,
+body.single-post .post #comments #respond input {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  font-family: DINMedium;
+}
+body.single-post .post #comments #respond label {
+  width: 50px;
+}
+body.single-post .post #comments #respond input[type="text"],
+body.single-post .post #comments #respond input[type="url"],
+body.single-post .post #comments #respond input[type="email"],
+body.single-post .post #comments #respond textarea {
+  border-top: 1px solid #8c8c8c;
+  border-left: 1px solid #8c8c8c;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomright: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+body.single-post .post #comments #respond input[type="text"],
+body.single-post .post #comments #respond input[type="url"],
+body.single-post .post #comments #respond input[type="email"] {
+  font: normal normal 15px/28px DINMedium;
+  height: 28px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  vertical-align: middle;
+  width: 350px;
+}
+body.single-post .post #comments #respond input[type="text"] {
+  font-family: DINLightAlternate;
+}
+body.single-post .post #comments #respond input[type="url"],
+body.single-post .post #comments #respond input[type="email"] {
+  color: blue;
+  text-decoration: underline;
+}
+body.single-post .post #comments #respond textarea {
+  min-height: 188px;
+  width: 416px;
+}
 body.single-post .post .navigation li a.prev {
   top: 54px;
 }

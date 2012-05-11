@@ -22,7 +22,7 @@
 	</header><!-- .entry-header -->
 
     <aside>
-        <!-- <img src="img/article/thumb.jpg" alt="Image de l’article" /> -->
+        <?php the_post_thumbnail() ?>
         <dl>
             <dt>Published:</dt>
             <dd><time datetime="<?php echo get_the_date( 'c' ) ?>" pubdate><?php the_date() ?></time> <time datetime="<?php echo get_the_modified_date( 'c' ) ?>" class="lastrev">(last revision: <?php echo the_modified_date() ?>)</time></dd>
@@ -32,11 +32,13 @@
 
             <dt>Organization:</dt>
             <dd>Webarchivists (FR)</dd>
-
+            
+            <?php if(get_the_tags()): ?>
             <dt>Tags:</dt>
             <dd>
                 <?php the_tags('<ul class="tags"><li>','</li><li>','</li></ul>'); ?>
             </dd>
+            <?php endif ?>
         </dl>
     </aside>
 
