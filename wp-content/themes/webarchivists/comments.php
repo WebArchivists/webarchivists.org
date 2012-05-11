@@ -66,7 +66,7 @@
         'comment_notes_before' => '',
         'comment_notes_after' => '',
         'comment_field' =>
-            '<textarea id="comment" name="comment" aria-required="true"></textarea>',
+            '<textarea id="comment" name="comment" required aria-required="true"></textarea>',
     );
 
     comment_form($comments_args);

@@ -134,9 +134,9 @@ function webarchivists_comment( $comment, $args, $depth ) {
  *
  */
 function webarchivists_comments_form($args) {
-    $args['author'] = '<label for="author">'. __('Name') .'</label><input type="text" id="author" name="author" />';
-    $args['url'] = '<label for="url">'. __('URL') .'</label><input placeholder="' . __('http://www.address.tld') . '" type="url" id="url" name="url" />';
-    $args['email'] = '<label for="email">'. __('Email') .'</label><input placeholder="' . __('email@domain.tld') . '" type="email" id="email" name="email" />';
+    $args['author'] = '<label for="author">'. __('Name') .'</label><input type="text" id="author" name="author" required aria-required="true" />';
+    $args['url'] = '<label for="url">'. __('URL') .'</label><input placeholder="' . __('http://www.address.tld') . '" type="url" id="url" name="url"  />';
+    $args['email'] = '<label for="email">'. __('Email') .'</label><input placeholder="' . __('email@domain.tld') . '" type="email" id="email" name="email" required aria-required="true" />';
     return $args;
 }
 add_filter('comment_form_default_fields','webarchivists_comments_form'); 
