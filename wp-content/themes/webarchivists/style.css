@@ -2066,12 +2066,12 @@ body.single-post .post .navigation li a.prev {
   transition-timing-function: ease-in-out, ease-in-out;
 }
 @media screen and (max-width: 1082px) {
-  #news .navigation,
+  .posts .navigation,
   .post .navigation {
     clear: both;
     text-align: center;
   }
-  #news .navigation li,
+  .posts .navigation li,
   .post .navigation li {
     display: -moz-inline-stack;
     display: inline-block;
@@ -2079,11 +2079,11 @@ body.single-post .post .navigation li a.prev {
     zoom: 1;
     margin: 1em 1%;
   }
-  #news .navigation li:first-child,
+  .posts .navigation li:first-child,
   .post .navigation li:first-child {
     margin-right: 2em;
   }
-  #news .navigation li a,
+  .posts .navigation li a,
   .post .navigation li a {
     background-image: none;
     position: static;
@@ -2129,7 +2129,7 @@ body.single-post .post .navigation li a.prev {
   nav ul li.current-menu-item a {
     background-position: center -0.2em;
   }
-  #content #news article {
+  #content .posts article {
     display: -moz-inline-stack;
     display: inline-block;
     *display: inline;
@@ -2209,7 +2209,7 @@ body.single-post .post .navigation li a.prev {
   }
 }
 @media screen and (max-width: 420px) {
-  .ie7 #news article {
+  .ie7 .posts article {
     height: auto;
   }
   nav {
@@ -2221,7 +2221,7 @@ body.single-post .post .navigation li a.prev {
   nav ul li a.active {
     background-position: center -0.4em;
   }
-  #content #news article {
+  #content .posts article {
     display: -moz-inline-stack;
     display: inline-block;
     *display: inline;
@@ -2315,6 +2315,8 @@ body.single-post .post .navigation li a.prev {
   h4,
   h5,
   h6 {
+    font-style: normal !important;
+    font-weight: normal !important;
     page-break-after: avoid !important;
   }
   #header .logo,
@@ -2385,14 +2387,17 @@ body.single-post .post .navigation li a.prev {
   #about-webarchivists .portrait h2 {
     border: 0 !important;
   }
-  #news article header .meta {
+  .posts article header h2 a {
+    color: #000;
+  }
+  .posts article header .meta {
     border: 0 !important;
   }
-  #news article header .meta time {
+  .posts article header .meta time {
     display: block;
   }
-  #news article header .meta .country,
-  #news article header .meta .nb-comments {
+  .posts article header .meta .country,
+  .posts article header .meta .nb-comments {
     display: -moz-inline-stack;
     display: inline-block;
     *display: inline;
@@ -2408,10 +2413,10 @@ body.single-post .post .navigation li a.prev {
     height: auto;
     width: auto;
   }
-  #news article header .meta .nb-comments:after {
+  .posts article header .meta .nb-comments:after {
     content: " |";
   }
-  #news article header .meta .nb-comments span {
+  .posts article header .meta .nb-comments span {
     display: inline;
     margin-left: .5em;
   }
