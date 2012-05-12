@@ -84,9 +84,9 @@
         </a>
         <ul class="social">
             <li><a title="RSS Feed" class="rss" href="<?php bloginfo('rss2_url'); ?>"><?php echo __('RSS Feed') ?></a></li>
-            <li><a title="Contact us by mail" class="mail" href="/contact">Mail</a></li>
-            <li><a title="WebArchivists on Twitter" class="twitter" href="#">Twitter</a></li>
-            <li><a title="WebArchivists on Facebook" class="facebook" href="#">Facebook</a></li>
+            <li><a title="<?php echo __('Contact us by mail') ?>" class="mail" href="/contact">Mail</a></li>
+            <li><a title="<?php echo __('WebArchivists on Twitter') ?>" class="twitter" href="http://twitter.com/webarchivists">Twitter</a></li>
+            <li><a title="<?php echo __('WebArchivists on Facebook') ?>" class="facebook" href="http://www.facebook.com/webarchivists">Facebook</a></li>
         </ul>
         <span class="baseline"><?php bloginfo( 'description' ); ?></span>
         <nav role="navigation">
@@ -110,16 +110,16 @@
             <li><a href="#de">de</a></li>
             <li><a href="#es">es</a></li>
         </ul>
-        <a href="#" class="help-translation">Help us to translate !</a>
+        <a href="#" class="help-translation"><?php echo __('Help us to translate !') ?></a>
     </header>
     <div id="first-time">
         <div class="message">
-            <h2>Oh hello there ! Welcome on webarchivists.org</h2>
-            <p>This is your first time on our website, do you want to learn
-               more about <strong>web-archives</strong> and why they&rsquo;re good for you?</p>
+            <h2><?php echo __('Oh hello there ! Welcome on webarchivists.org') ?></h2>
+            <p><?php echo __('This is your first time on our website, do you want to learn
+               more about <strong>web-archives</strong> and why they&rsquo;re good for you?') ?></p>
             <ul class="options">
-                <li><a href="#"><strong>Yes</strong>, please.</a></li>
-                <li><a class="nothanks" href="#"><strong>No</strong>, thank you.</a></li>
+                <li><a href="#"><?php echo __('<strong>Yes</strong>, please.') ?></a></li>
+                <li><a class="nothanks" href="#"><?php echo __('<strong>No</strong>, thank you.') ?></a></li>
             </ul>
         </div>
     </div>

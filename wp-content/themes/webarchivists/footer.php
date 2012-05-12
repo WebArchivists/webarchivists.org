@@ -27,10 +27,10 @@
         ?>
     </ul>
     <ul class="contact">
-        <li><a href="#">follow us on twitter</a></li>
-        <li><a href="#">like us on facebook</a></li>
-        <li><a href="#">contact us</a></li>
-        <li><a href="#">RSS feed</a></li>
+        <li><a href="http://twitter.com/webarchivists"><?php echo __('follow us on twitter') ?></a></li>
+        <li><a href="http://www.facebook.com/webarchivists"><?php echo __('like us on facebook') ?></a></li>
+        <li><a href="/contact"><?php echo __('contact us by mail') ?></a></li>
+        <li><a href="<?php bloginfo('rss2_url'); ?>"><?php echo __('RSS feed') ?></a></li>
     </ul>
     <small class="commons">
         all content, unless specified, is under <a href="#">creative commons</a><br />
