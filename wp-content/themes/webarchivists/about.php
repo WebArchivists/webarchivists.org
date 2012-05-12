@@ -7,16 +7,15 @@ get_header(); ?>
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
-    <article class="page-content" id="about-webarchivists">
+    <article class="page" id="about-webarchivists">
                 <?php the_post_thumbnail() ?>
 
                 <section class="intro">
-                    <h2>About webarchivists.org</h2>
+                    <h1><?php the_title() ?></h1>
                     <?php the_content() ?>
                 </section>
 
                 <section class="portraits">
-                    
                     <!--<?php
                     
                     $team = array( 'spone', 'denis', 'baptiste', 'chloe', 'camille' );

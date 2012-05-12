@@ -83,8 +83,8 @@
             </h1>
         </a>
         <ul class="social">
-            <li><a title="RSS Feed" class="rss" href="#">RSS Feed</a></li>
-            <li><a title="Contact us by mail" class="mail" href="#">Mail</a></li>
+            <li><a title="RSS Feed" class="rss" href="<?php bloginfo('rss2_url'); ?>"><?php echo __('RSS Feed') ?></a></li>
+            <li><a title="Contact us by mail" class="mail" href="/contact">Mail</a></li>
             <li><a title="WebArchivists on Twitter" class="twitter" href="#">Twitter</a></li>
             <li><a title="WebArchivists on Facebook" class="facebook" href="#">Facebook</a></li>
         </ul>
@@ -104,21 +104,6 @@
             );
         ?>
         </nav>
-		<?php /*
-		    
-		    wp_nav_menu( array( 'after' => 'foo', 'container' => 'nav' ) )
-	    */ ?>
-		<?php /* ?>
-        <nav role="navigation">
-            <ul>
-                   <li><a class="active" href="index.html">News</a></li><!--
-                --><li><a href="#">Projects</a></li><!--
-                --><li><a href="about.html">About</a></li><!--
-                --><li><a href="#">Links</a></li><!--
-                --><li><a href="#">Submit</a></li>
-            </ul>
-        </nav>
-        */ ?>
         <ul class="languages">
             <li><a href="#en" class="active">en</a></li>
             <li><a href="#fr">fr</a></li>

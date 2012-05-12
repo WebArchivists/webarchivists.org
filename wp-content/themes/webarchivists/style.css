@@ -1039,6 +1039,76 @@ body {
   min-width: 375px;
   width: 100%;
 }
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
 @font-face {
   font-family: 'DINMedium';
   src: url('css/fonts/din/ff_din_medium.eot');
@@ -1501,11 +1571,11 @@ nav  > ul  > li:first-child a {
   text-align: right;
   width: 63.1%;
 }
-#news {
+.posts {
   padding: 1%;
   position: relative;
 }
-#news article {
+.posts article {
   display: -moz-inline-stack;
   display: inline-block;
   *display: inline;
@@ -1516,27 +1586,27 @@ nav  > ul  > li:first-child a {
   margin-top: 0.667em !important;
   margin-bottom: 0.667em !important;
 }
-#news article .thumbnail {
+.posts article .thumbnail {
   display: block;
   margin: 0 0 15px;
 }
-#news article .thumbnail img {
+.posts article .thumbnail img {
   width: 100%;
 }
-#news article header {
+.posts article header {
   margin: 0 0 8px;
 }
-#news article header .meta {
+.posts article header .meta {
   border-bottom: 1px dotted #000;
   padding: 7px 0;
 }
-#news article header .meta .date {
+.posts article header .meta .date {
   text-transform: uppercase;
 }
-#news article header .meta .date sup {
+.posts article header .meta .date sup {
   font-size: 9px;
 }
-#news article header .meta .country {
+.posts article header .meta .country {
   display: -moz-inline-stack;
   display: inline-block;
   *display: inline;
@@ -1547,7 +1617,7 @@ nav  > ul  > li:first-child a {
   text-indent: -999em;
   width: 16px;
 }
-#news article header .meta .nb-comments {
+.posts article header .meta .nb-comments {
   background-image: url(css/img/news/comments.gif);
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -1561,27 +1631,27 @@ nav  > ul  > li:first-child a {
   text-align: right;
   width: 10px;
 }
-#news article header .meta .nb-comments.hot {
+.posts article header .meta .nb-comments.hot {
   background-position: 0 -27px;
 }
-#news article header .meta .nb-comments.none {
+.posts article header .meta .nb-comments.none {
   background-position: 0 -54px;
 }
-#news article header .meta .nb-comments span {
+.posts article header .meta .nb-comments span {
   display: none;
 }
-#news article header h2 {
+.posts article header h2 {
   font-weight: normal;
   padding: 10px 0;
   text-transform: uppercase;
 }
-#news article header h2 a {
+.posts article header h2 a {
   color: #000000;
 }
-#news article p {
+.posts article p {
   font-family: DINLightAlternate;
 }
-#news article .more {
+.posts article .more {
   font-family: DINMedium;
   text-decoration: underline;
   padding: 0 2px;
@@ -1590,18 +1660,18 @@ nav  > ul  > li:first-child a {
   -o-transition: all 200ms ease-in 0ms;
   transition: all 200ms ease-in 0ms;
 }
-#news article .more:hover,
-#news article .more.active {
+.posts article .more:hover,
+.posts article .more.active {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   background: #efefef;
 }
-#news .navigation,
+.posts .navigation,
 .post .navigation {
   font-size: 15px;
 }
-#news .navigation li a,
+.posts .navigation li a,
 .post .navigation li a {
   background-image: url(css/img/news/navigation.png);
   background-position: 0 0;
@@ -1612,13 +1682,13 @@ nav  > ul  > li:first-child a {
   text-indent: -999em;
   width: 50px;
 }
-#news .navigation li a.prev,
+.posts .navigation li a.prev,
 .post .navigation li a.prev {
   left: 0;
   margin-left: -50px;
   top: 22px;
 }
-#news .navigation li a.next,
+.posts .navigation li a.next,
 .post .navigation li a.next {
   background-position: 0 -86px;
   bottom: 60px;
@@ -1628,7 +1698,11 @@ nav  > ul  > li:first-child a {
 .commons img:after {
   content: attr(alt);
 }
-#about-webarchivists .intro h2:first-child {
+#about-webarchivists {
+  margin: 2% 0;
+}
+#about-webarchivists .intro h1 {
+  font-size: 1em;
   -webkit-column-span: all;
   -moz-column-span: all;
   -ms-column-span: all;
@@ -1689,16 +1763,16 @@ nav  > ul  > li:first-child a {
   max-width: 960px !important;
   max-height: 426px !important;
 }
-.page-content {
+body.page .page {
   font-family: DINLightAlternate;
-  margin: 2% 0;
+  margin: 2%;
 }
-.page-content .attachment-post-thumbnail {
+body.page .page .attachment-post-thumbnail {
   display: block;
   max-width: 96%;
   margin: 0 auto 2%;
 }
-.page-content .intro {
+body.page .page .intro {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   -ms-column-count: 2;
@@ -1712,11 +1786,13 @@ nav  > ul  > li:first-child a {
   margin: 0 2% 2%;
   padding: 15px 0 0;
 }
-.page-content .intro p {
+body.page .page .intro p {
   margin-bottom: 1em;
 }
-.page-content h2,
-.page-content h3 {
+body.page .page h1,
+body.page .page h2,
+body.page .page h3 {
+  color: blue;
   margin-bottom: .1em;
   text-transform: uppercase;
 }
@@ -1939,27 +2015,27 @@ body.single-post .post .navigation li a.prev {
   border: 2px solid blue;
   z-index: 99999;
 }
-.ie6 #news,
-.ie7 #news {
+.ie6 .posts,
+.ie7 .posts {
   zoom: 1;
 }
-.ie6 #news article,
-.ie7 #news article {
+.ie6 .posts article,
+.ie7 .posts article {
   height: 480px;
   overflow: hidden;
   display: block;
   float: left;
 }
-.ie6 #news article header .meta,
-.ie7 #news article header .meta {
+.ie6 .posts article header .meta,
+.ie7 .posts article header .meta {
   padding-bottom: 1.333em;
 }
-.ie6 #news article header .meta .date,
-.ie7 #news article header .meta .date {
+.ie6 .posts article header .meta .date,
+.ie7 .posts article header .meta .date {
   float: left;
 }
-.ie6 #news article header h2,
-.ie7 #news article header h2 {
+.ie6 .posts article header h2,
+.ie7 .posts article header h2 {
   clear: both;
 }
 .js #first-time {
