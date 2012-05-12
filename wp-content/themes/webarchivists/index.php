@@ -2,7 +2,7 @@
 
 get_header(); ?>
 
-    <section id="news">
+    <section id="news" class="posts">
 	<?php if ( have_posts() ) : ?>
 
 		<!--

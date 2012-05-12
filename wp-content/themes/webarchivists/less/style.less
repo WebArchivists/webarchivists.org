@@ -24,6 +24,8 @@ body {
     width: 100%
 }
 
+@import "wpcore";
+
 @import "fonts";
 body { font: 15px/1em Arial, Helvetica, sans-serif }
 h1, h2, h3, h4, h5, h6, p { line-height: 1.2em }
@@ -301,7 +303,7 @@ nav {
     }
 }
 
-#news {
+.posts {
     padding: 1%;
     position: relative;
     article {
@@ -374,7 +376,7 @@ nav {
         }
     }
 }
-#news, .post {
+.posts, .post {
     .navigation {
         font-size: 15px;
         li {
@@ -407,8 +409,10 @@ nav {
 .commons img:after{ content: attr(alt) }
 
 #about-webarchivists {
+    margin: 2% 0;
     .intro {
-        h2:first-child {
+        h1 {
+            font-size: 1em;
             .column-span ( all );
         }
     }
@@ -456,9 +460,9 @@ nav {
     }
 }
 
-.page-content {
+body.page .page {
     font-family: DINLightAlternate;
-    margin: 2% 0;
+    margin: 2%;
     .attachment-post-thumbnail {
         display: block;
         max-width: 96%;
@@ -470,7 +474,8 @@ nav {
         padding: 15px 0 0;
         p { margin-bottom: 1em; }
     }
-    h2, h3 { margin-bottom: .1em; text-transform: uppercase; }
+    //h1 { font-size: 1.667em }
+    h1, h2, h3 { color: blue; margin-bottom: .1em; text-transform: uppercase; }
 }
 
 body.single-post .post {
@@ -657,7 +662,7 @@ body.single-post .post {
     }
 }
 .ie6, .ie7 {
-    #news {
+    .posts {
         zoom: 1;
         article {
             height: 480px;
