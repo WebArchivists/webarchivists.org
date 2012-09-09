@@ -92,7 +92,7 @@ function webarchivists_comment( $comment, $args, $depth ) {
 		case 'trackback' :
 	?>
 	<article class="post pingback">
-		<p><?php _e( 'Pingback:', 'twentyeleven' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?></p>
+		<p><?php _e( 'Pingback:', 'webarchivists' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'Edit', 'webarchivists' ), '<span class="edit-link">', '</span>' ); ?></p>
 	</article>
 	<?php
 			break;
@@ -116,7 +116,7 @@ function webarchivists_comment( $comment, $args, $depth ) {
 			</div>
 
 			<?php if ( $comment->comment_approved == '0' ) : ?>
-				<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'twentyeleven' ); ?></em>
+				<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'webarchivists' ); ?></em>
 				<br />
 			<?php endif; ?>
 
