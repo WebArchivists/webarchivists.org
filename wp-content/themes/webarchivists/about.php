@@ -51,6 +51,7 @@ get_header(); ?>
                     ?>-->
              </section>
 
+            <?php /*
             <section class="webarchives">
 
                 <video poster="<?php bloginfo('template_directory') ?>/video/webarchives.jpg" width="960" height="426" controls="controls" preload="none" style="width:100%;height:100%">
@@ -73,6 +74,7 @@ get_header(); ?>
                 </video>
 
             </section>
+            */ ?>
 
         </article>
 	<?php endwhile; // end of the loop. ?>
