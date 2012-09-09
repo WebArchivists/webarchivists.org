@@ -114,6 +114,7 @@
         <a href="#" class="help-translation"><?php echo __('Help us to translate !') ?></a>
         */ ?>
     </header>
+    <?php /*
     <div id="first-time">
         <div class="message">
             <h2><?php echo __('Oh hello there ! Welcome on webarchivists.org') ?></h2>
@@ -125,6 +126,7 @@
             </ul>
         </div>
     </div>
+    */ ?>
 
 	<?php // get_search_form(); ?>
 	<section id="content" role="main">
