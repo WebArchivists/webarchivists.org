@@ -104,6 +104,7 @@
             );
         ?>
         </nav>
+        <?php /*
         <ul class="languages">
             <li><a href="#en" class="active">en</a></li>
             <li><a href="#fr">fr</a></li>
@@ -111,6 +112,7 @@
             <li><a href="#es">es</a></li>
         </ul>
         <a href="#" class="help-translation"><?php echo __('Help us to translate !') ?></a>
+        */ ?>
     </header>
     <div id="first-time">
         <div class="message">

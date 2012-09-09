@@ -199,6 +199,8 @@ class Webarchivists_Walker extends Walker_Nav_Menu
     }
 }
 
+register_nav_menus( array( 'main-menu' ) );
+
 /**
  * This is a modification of image_downsize() function in wp-includes/media.php
  * we will remove all the width and height references, therefore the img tag 
