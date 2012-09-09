@@ -10,10 +10,11 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="entry-meta">
-			<?php webarchivists_posted_on(); ?>
-            <span class="type">News</span>
-            <span class="country fr">France</span>
-            <a href="#comments" title="xx comments" class="nb-comments none"><span>No comments</span></a>
+            <time pubdate="<?php echo get_the_date( 'c' ) ?>" datetime=""><?php
+                $dateformat = __( 'F j<\s\u\p>S</\s\u\p>', 'webarchivists' );
+    		    echo date_i18n( $dateformat, strtotime( get_the_date( 'c' ) ) );
+            ?></time><?php /* - <span class="type">News</span> - <span class="country fr">France</span> */ ?>
+            <?php webarchivists_comments_info() ?>
 		</div>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 

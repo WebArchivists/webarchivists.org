@@ -302,6 +302,22 @@ nav {
         width: 63.1%;        
     }
 }
+.nb-comments {
+    background-image: url(css/img/news/comments.gif);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #fff !important;
+    display: block;
+    font: 8px/6px "monooge", sans-serif;
+    height: 6px;
+    letter-spacing: -0.35em;
+    padding: 0 11px 12px 0;
+    text-align:right;
+    width: 10px;
+    &.hot { background-position: 0 -27px }
+    &.none { background-position: 0 -54px }
+    span { display: none }
+}
 
 .posts {
     padding: 1%;
@@ -337,21 +353,7 @@ nav {
                     width: 16px;
                 }
                 .nb-comments {
-                    background-image: url(css/img/news/comments.gif);
-                    background-position: 0 0;
-                    background-repeat: no-repeat;
-                    color: #fff;
-                    display: block;
                     float: right;
-                    font: 8px/6px "monooge", sans-serif;
-                    height: 6px;
-                    letter-spacing: -0.35em;
-                    padding: 0 11px 12px 0;
-                    text-align:right;
-                    width: 10px;
-                    &.hot { background-position: 0 -27px }
-                    &.none { background-position: 0 -54px }
-                    span { display: none }
                 }
             }
             h2 {
@@ -500,26 +502,34 @@ body.single-post .post {
         margin: 0 0 0.8em;
         padding: 0.6em 0 0;
     }
-    & > .entry-content {
-        & > header {
-            .entry-meta {
-                padding: 1.6em 0 11px;
-                & > * {
-                    .inline-block;
-                    vertical-align: top;
-                }
+    & > header {
+        .entry-meta {
+            padding: 1.6em 0 11px;
+            text-transform: uppercase;
+            time {
+                font-family: DINMedium;
+                font-size: 15px;
+                margin-right: 5px;
+            }
+            & > * {
+                .inline-block;
+                vertical-align: top;
             }
         }
+    }
+    & > .entry-content {
         p {
             margin: 1.2em 0;
+            word-wrap: break-word;
         }
     }
     aside {
         & > img {
-            margin: 0 0 1.4em;
+            margin: 0;
         }
         dl {
             font-family:DINMedium;
+            margin: 1.4em 0 0;
             dt {
                 color: blue;
             }
@@ -581,6 +591,7 @@ body.single-post .post {
             .body {
                 margin-top: 15px;
                 .edit-link { float: right; margin-top: 5px; }
+                word-wrap: break-word;
             }
         }
         #respond {
