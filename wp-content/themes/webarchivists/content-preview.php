@@ -9,9 +9,9 @@
  */
 ?><article id="post-<?php the_ID(); ?>" <?php post_class( 'indexed' ); ?>>
     <header>
-        <?php if (the_post_thumbnail('category-thumb')): ?>
-        <a class="thumbnail"><?php the_post_thumbnail('category-thumb') ?></a>
-        <?php endif; ?>
+        <?php if (get_the_post_thumbnail( get_the_id(), 'category-thumb')): ?>
+        <a href="<?php echo esc_url( get_permalink() ) ?>" class="thumbnail"><?php the_post_thumbnail('category-thumb') ?></a>
+        <?php endif;  ?>
         <div class="meta">
             <a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark" class="date">
                 <time pubdate="<?php echo get_the_date( 'c' ) ?>" datetime=""><?php
