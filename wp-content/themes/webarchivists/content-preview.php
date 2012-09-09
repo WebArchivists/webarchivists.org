@@ -20,7 +20,9 @@
                 ?></time>
             </a>
             <?php webarchivists_comments_info() ?>
+            <?php /* 
             <span class="country de">Germany</span>
+            */ ?>
         </div>
         <h2>
             <a href="<?php echo esc_url( get_permalink() ) ?>">
