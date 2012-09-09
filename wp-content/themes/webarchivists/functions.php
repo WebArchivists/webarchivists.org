@@ -245,4 +245,3 @@ add_filter( 'image_downsize', 'webarchivists_image_downsize', 1, 3 );
 
 add_image_size( 'category-thumb', 300, 9999 );
 
-
