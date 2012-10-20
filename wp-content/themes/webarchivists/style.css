@@ -2143,6 +2143,7 @@ body.single-post .post .navigation li a.prev {
   }
   body.single-post .post aside {
     float: none;
+    margin-bottom: 1.2em;
     width: auto;
   }
   body.single-post .post aside dl dt,
