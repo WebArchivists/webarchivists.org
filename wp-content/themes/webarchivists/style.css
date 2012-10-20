@@ -1615,7 +1615,10 @@ nav  > ul  > li:first-child a {
   margin: 0 0 15px;
 }
 .posts article .thumbnail img {
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-height: 125px;
+  max-width: 100%;
 }
 .posts article header {
   margin: 0 0 8px;
