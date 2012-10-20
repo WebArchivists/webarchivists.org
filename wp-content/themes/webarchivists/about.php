@@ -18,7 +18,7 @@ get_header(); ?>
                 <section class="portraits">
                     <!--<?php
                     
-                    $team = array( 'spone', 'denis', 'baptiste', 'chloe', 'camille' );
+                    $team = array( 'baptiste', 'spone', 'denis', 'chloe', 'camille' );
                     foreach ($team as $slug):
                         if(  $member = get_user_by( 'slug', $slug ) ) :
                     
