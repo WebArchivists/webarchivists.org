@@ -18,7 +18,7 @@
             <a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark" class="date">
                 <time pubdate="<?php echo get_the_date( 'c' ) ?>" datetime=""><?php
                     $dateformat = __( 'F j<\s\u\p>S</\s\u\p>', 'webarchivists' );
-        		    echo date_i18n( $dateformat, strtotime( get_the_date( 'c' ) ) );
+        		    echo date_i18n( $dateformat, strtotime( get_the_date( 'c' ) ) ) . (get_the_date('Y') != date('Y') ? ' '.get_the_date('Y') : '');
                 ?></time>
             </a>
             <?php webarchivists_comments_info() ?>
