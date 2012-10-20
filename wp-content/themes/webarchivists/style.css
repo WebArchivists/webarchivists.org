@@ -1196,6 +1196,7 @@ article p {
   -o-hyphens: auto;
   hyphens: auto;
   -webkit-hyphenate-limit-before: 3;
+  margin-top: 0;
 }
 html {
   background: #e7edf3 url(css/img/footer/bg-wide.png) repeat-x center bottom;
@@ -1214,6 +1215,9 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
+p {
+  margin: 1.2em 0;
 }
 #header {
   margin: 0 auto;
@@ -1697,6 +1701,18 @@ nav  > ul  > li:first-child a {
   right: 0;
   margin-right: -50px;
 }
+#content .post,
+#content .page {
+  font-size: 1.067em;
+}
+#content .post p,
+#content .page p {
+  line-height: 1.4em;
+}
+#content .post a,
+#content .page a {
+  font-family: DINMediumAlternate;
+}
 .commons img:after {
   content: attr(alt);
 }
@@ -1765,16 +1781,19 @@ nav  > ul  > li:first-child a {
   max-width: 960px !important;
   max-height: 426px !important;
 }
-body.page .page {
+body.page .page,
+body.error404 .error404 {
   font-family: DINLightAlternate;
   margin: 2%;
 }
-body.page .page .attachment-post-thumbnail {
+body.page .page .attachment-post-thumbnail,
+body.error404 .error404 .attachment-post-thumbnail {
   display: block;
   max-width: 96%;
   margin: 0 auto 2%;
 }
-body.page .page .intro {
+body.page .page .intro,
+body.error404 .error404 .intro {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   -ms-column-count: 2;
@@ -1788,12 +1807,16 @@ body.page .page .intro {
   margin: 0 2% 2%;
   padding: 15px 0 0;
 }
-body.page .page .intro p {
+body.page .page .intro p,
+body.error404 .error404 .intro p {
   margin-bottom: 1em;
 }
 body.page .page h1,
+body.error404 .error404 h1,
 body.page .page h2,
-body.page .page h3 {
+body.error404 .error404 h2,
+body.page .page h3,
+body.error404 .error404 h3 {
   color: blue;
   margin-bottom: .1em;
   text-transform: uppercase;
