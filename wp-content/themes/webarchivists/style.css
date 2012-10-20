@@ -1753,6 +1753,7 @@ nav  > ul  > li:first-child a {
   text-transform: uppercase;
 }
 #about-webarchivists .portraits .portrait .links {
+  list-style: none;
   font-family: DINMediumAlternate;
   margin-top: 20px;
 }
