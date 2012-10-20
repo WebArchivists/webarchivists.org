@@ -1613,7 +1613,7 @@ nav  > ul  > li:first-child a {
 }
 .posts article .thumbnail {
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;

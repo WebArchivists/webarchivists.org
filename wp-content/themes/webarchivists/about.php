@@ -15,7 +15,7 @@ get_header(); ?>
                     <?php the_content() ?>
                 </section>
 
-                <section class="portraits">
+                <section class="portraits" id="team">
                     <!--<?php
                     
                     $team = array( 'baptiste', 'spone', 'denis', 'chloe', 'camille' );

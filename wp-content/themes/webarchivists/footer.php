@@ -14,8 +14,8 @@
             $logo = '<img class="wa" src="'. get_bloginfo('template_directory') . '/img/webarchivists.png" alt="WebArchivists" />';
             printf(__('%s is a french non-profit organization founded in 2009.'), $logo) ?></p>
         <ul class="options">
-            <li><a href="<?php echo get_permalink(286) ?>"><?php _e('Learn more', 'webarchivists') ?></a></li>
-            <li><a href="<?php echo get_permalink(312) ?>"><?php _e('Meet the team', 'webarchivists') ?></a></li>
+            <li><a href="<?php echo get_permalink(312) ?>#about-webarchivists"><?php _e('Learn more', 'webarchivists') ?></a></li>
+            <li><a href="<?php echo get_permalink(312) ?>#team"><?php _e('Meet the team', 'webarchivists') ?></a></li>
         </ul>
     </div>
 </footer>
