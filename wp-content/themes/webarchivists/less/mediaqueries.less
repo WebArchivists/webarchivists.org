@@ -29,6 +29,41 @@
 
 
 @media screen and (max-width: 680px) {
+    
+    body.single-post .post {
+        & > .entry-content, & > header {
+            margin-right: 2%;
+            float: none;
+            width: auto;
+        }
+        aside {
+            float: none;
+            width: auto;
+            dl {
+                dt, dd {
+                    .inline-block;
+                    line-height: 1.2em;
+                    margin-bottom: 0;
+                }
+                dd .tags {
+                    line-height: inherit;
+                }
+            }
+        }
+        #comments {
+            float: none;
+            width: auto;
+            #respond {
+                input[type="text"], input[type="url"], input[type="email"] {
+                }
+                textarea {
+                    width: 99%;
+                }
+            }
+        }
+    }
+    
+    
     #header {
         .languages li a {
             height: 2em;

@@ -2000,7 +2000,7 @@ body.single-post .post #comments #respond input[type="email"] {
   margin-bottom: 0.667em;
   padding: 0 10px;
   vertical-align: middle;
-  width: 83%;
+  width: 82.6%;
 }
 body.single-post .post #comments #respond input[type="text"] {
   font-family: DINLightAlternate;
@@ -2110,6 +2110,35 @@ body.single-post .post .navigation li a.prev {
   }
 }
 @media screen and (max-width: 680px) {
+  body.single-post .post  > .entry-content,
+  body.single-post .post  > header {
+    margin-right: 2%;
+    float: none;
+    width: auto;
+  }
+  body.single-post .post aside {
+    float: none;
+    width: auto;
+  }
+  body.single-post .post aside dl dt,
+  body.single-post .post aside dl dd {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    line-height: 1.2em;
+    margin-bottom: 0;
+  }
+  body.single-post .post aside dl dd .tags {
+    line-height: inherit;
+  }
+  body.single-post .post #comments {
+    float: none;
+    width: auto;
+  }
+  body.single-post .post #comments #respond textarea {
+    width: 99%;
+  }
   #header .languages li a {
     height: 2em;
     line-height: 2em;
