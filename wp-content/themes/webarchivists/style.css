@@ -1196,7 +1196,6 @@ article p {
   -o-hyphens: auto;
   hyphens: auto;
   -webkit-hyphenate-limit-before: 3;
-  margin-top: 0;
 }
 html {
   background: #e7edf3 url(css/img/footer/bg-wide.png) repeat-x center bottom;
@@ -1656,6 +1655,7 @@ nav  > ul  > li:first-child a {
 }
 .posts article p {
   font-family: DINLightAlternate;
+  margin-top: 0;
 }
 .posts article .more {
   font-family: DINMedium;
