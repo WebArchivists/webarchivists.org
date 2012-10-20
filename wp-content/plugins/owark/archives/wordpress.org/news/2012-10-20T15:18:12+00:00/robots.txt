@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search
+Disallow: /support/search.php
+Disallow: /extend/plugins/search.php
+Disallow: /extend/themes/search.php
+Disallow: /support/rss

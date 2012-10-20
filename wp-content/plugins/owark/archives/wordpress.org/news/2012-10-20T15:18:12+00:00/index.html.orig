@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<link href="https://plus.google.com/107188080561309681193" rel="publisher" />
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0" />
+<title>WordPress &#8250; Blog</title>
+<link rel="stylesheet" href="http://s.wordpress.org/style/wp4.css?26" />
+<link media="only screen and (max-device-width: 480px)" href="http://s.wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="http://s.wordpress.org/favicon.ico?3" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="WordPress News" href="http://wordpress.org/news/feed/" />
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-52447-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+function recordOutboundLink(link, category, action) {
+  pageTracker._trackEvent(category, action);
+  setTimeout('document.location = "' + link.href + '"', 100);
+}
+</script>
+<!--[if lt IE 8]>
+<style type="text/css">
+@import url("http://s.wordpress.org/style/ie.css");
+</style>
+<![endif]-->
+
+<style type="text/css">
+@import url("http://s.wordpress.org/style/blog-wp4.css?2");
+</style>
+<link rel='stylesheet' id='sharedaddy-css'  href='http://wordpress.org/news/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=0.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://wordpress.org/news/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://wordpress.org/news/wp-includes/js/jquery/jquery.js?ver=1.8.2'></script>
+<script type='text/javascript' src='http://s0.videopress.com/js/videopress.js?ver=1.09'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wordpress.org/news/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wordpress.org/news/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5-beta2-22252" />
+<link rel='shortlink' href='http://wp.me/ZhYe' />
+<meta property='og:image' content='http://s.wordpress.org/about/images/logo-blue/blue-l.png' />
+<link rel='image_src' href='http://s.wordpress.org/about/images/logo-blue/blue-l.png' />
+<meta property='og:description' content='WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time.' />
+<meta property='og:type' content='blog' />
+<meta property='og:title' content='WordPress News' />
+<meta property='og:url' content='http://wordpress.org/news' />
+<meta property='og:site_name' content='WordPress News' />
+<meta property='fb:app_id' content='121415197926116' />
+<meta property='og:locale' content='en_US' />
+<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.3" />
+<script>document.cookie='devicePixelRatio='+((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio)+'; path=/';</script>
+</head>
+
+<body id="wordpress-org" class="home blog" >
+<div id="header">
+	<div class="wrapper">
+		<h1><a href="http://s.wordpress.org">WordPress.org</a></h1>
+
+		<form action="http://wordpress.org/search/do-search.php" method="get" id="head-search">
+			<input class="text" name="search" type="text" value="Search WordPress.org" maxlength="150" onfocus="this.value=(this.value=='Search WordPress.org') ? '' : this.value;" onblur="this.value=(this.value=='') ? 'Search WordPress.org' : this.value;" /> <input type="submit" class="button" value="Go" />
+		</form>
+		
+<ul>
+<li><a href='http://wordpress.org/showcase/' title='See some of the sites built on WordPress.'>Showcase</a></li>
+<li><a href='http://wordpress.org/extend/themes/' title='Find just the right look for your website.'>Themes</a></li>
+<li><a href='http://wordpress.org/extend/plugins/' title='Plugins can extend WordPress to do almost anything you can imagine.'>Plugins</a></li>
+<li><a href='http://wordpress.org/extend/mobile/' title='Take your website on the go!'>Mobile</a></li>
+<li><a href='http://wordpress.org/support/' title='Forums, documentation, help.'>Support</a><ul class="nav-submenu"><li><a href='http://wordpress.org/support/' title='Support and discussion forums.'>Forums</a></li><li><a href='http://codex.wordpress.org/Main_Page' title='Documentation, tutorials, best practices.'>Docs</a></li></ul></li>
+<li><a href='http://make.wordpress.org/' title='Contribute your knowledge.'>Get Involved</a><ul class="nav-submenu"><li><a href='http://make.wordpress.org/core/' title='Write the code.'>Core</a></li><li><a href='http://make.wordpress.org/ui/' title='Improve the interface.'>UI</a></li><li><a href='http://make.wordpress.org/accessibility/' title='Create a better experience.'>Accessibility</a></li><li><a href='http://make.wordpress.org/plugins/' title='Extend the system.'>Plugins</a></li><li><a href='http://make.wordpress.org/themes/' title='Beautify the web.'>Themes</a></li><li><a href='http://make.wordpress.org/support/' title='Help the users.'>Support</a></li><li><a href='http://make.wordpress.org/polyglots/' title='Translate for the world.'>Polyglots</a></li><li><a href='http://make.wordpress.org/mobile/' title='On the go.'>Mobile</a></li></ul></li>
+<li><a href='http://wordpress.org/about/' title='About the WordPress Organization, and where we&#039;re going.'>About</a></li>
+<li><a href='' title='Come here for the latest scoop.' class="current">Blog</a></li>
+<li><a href='http://wordpress.org/hosting/' title='Find a home for your blog.'>Hosting</a></li>
+<li id="download"><a href='http://wordpress.org/download/' title='Get it. Got it? Good.'>Download</a></li>
+</ul>
+	</div>
+</div>
+
+
+<div id="headline">
+	<div class="wrapper">
+		<h2><a href="http://wordpress.org/news/" title="WordPress News" rel="home">WordPress News</a></h2>
+	</div>
+</div>
+
+<div id="pagebody">
+	<div class="wrapper">
+		<div class="col-9">
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/10/wordpress-3-5-beta-2/">WordPress 3.5 Beta 2</a></h2>
+
+<div class="meta">Posted October 13, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>, <a href="http://wordpress.org/news/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>. </div>
+ <div class="storycontent">
+	<p>Two weeks after the first beta, WordPress 3.5 Beta 2 is now available for download and testing.</p>
+<p>This is software still in development, so we don’t recommend that you run it on a production site. Set up a test site to play with the new version. To test WordPress 3.5, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="http://wordpress.org/wordpress-3.5-beta2.zip">download the beta here</a> (zip).</p>
+<p>For more, <a title="WordPress 3.5 Beta 1" href="http://wordpress.org/news/2012/09/wordpress-3-5-beta-1/"><strong>check out the extensive Beta 1 blog post</strong></a>, which covers what&#8217;s new in version 3.5 and how you can help. What&#8217;s new since beta 1? I&#8217;m glad you asked:</p>
+<ul>
+<li>New workflow for working with image galleries, including drag-and-drop reordering and quick caption editing.</li>
+<li>New user interface for setting static front pages for the Reading Settings screen. (<a title="Ticket 16379" href="http://core.trac.wordpress.org/ticket/16379">#16379</a>)</li>
+<li>New image editing API. (<a title="Ticket 6821" href="http://core.trac.wordpress.org/ticket/6821">#6821</a>)</li>
+</ul>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="http://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="http://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="http://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.5">everything we’ve fixed</a> so far. Happy testing!</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/10/wordpress-3-5-beta-2/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2458"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/10/wordpress-3-5-beta-2/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2458"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/10/wordpress-3-5-beta-2/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/10/wordpress-3-5-beta-2/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/09/wordpress-3-5-beta-1/">WordPress 3.5 Beta 1 (and a bonus!)</a></h2>
+
+<div class="meta">Posted September 27, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>, <a href="http://wordpress.org/news/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>. </div>
+ <div class="storycontent">
+	<p>I&#8217;m excited to announce the availability of WordPress 3.5 Beta 1.</p>
+<p>This is software still in development and <strong>we <em>really</em> don’t recommend that you run it on a production site</strong> — set up a test site just to play with the new version. To test WordPress 3.5, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want “bleeding edge nightlies”). Or you can <a href="http://wordpress.org/wordpress-3.5-beta-1.zip">download the beta here</a> (zip).</p>
+<p>In just three short months, we&#8217;ve already made a few hundred changes to improve your WordPress experience. The biggest thing we&#8217;ve been working on is overhauling the media experience from the ground up. We&#8217;ve made it all fair game: How you upload photos, arrange galleries, insert images into posts, and more. It&#8217;s still rough around the edges and some pieces are missing — which means now is the <em>perfect</em> time to test it out, report issues, and help shape our headline feature.</p>
+<p>As always, if you think you’ve found a bug, you can post to the <a href="http://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="http://core.trac.wordpress.org/">file one on the WordPress Trac</a>. There, you can also find <a href="http://core.trac.wordpress.org/report/5">a list of known bugs</a> and <a href="http://core.trac.wordpress.org/query?status=closed&amp;group=component&amp;milestone=3.5">everything we&#8217;ve fixed</a> so far.</p>
+<p>Here&#8217;s some more of what&#8217;s new:</p>
+<ul>
+<li><strong>Appearance: </strong>A simplified welcome screen. A new color picker. And the all-HiDPI (retina) dashboard.</li>
+<li><strong>Accessibility:</strong> Keyboard navigation and screen reader support have both been improved.</li>
+<li><strong>Plugins: </strong>You can browse and install plugins you&#8217;ve marked as favorites on WordPress.org, directly from your dashboard.</li>
+<li><strong>Mobile: </strong>It&#8217;ll be easier to link up your WordPress install with <a href="http://wordpress.org/extend/mobile/">our mobile apps</a>, as XML-RPC is now enabled by default.</li>
+<li><strong>Links: </strong>We&#8217;ve hidden the Link Manager for new installs. (Don&#8217;t worry, <a href="http://wordpress.org/extend/plugins/link-manager/">there&#8217;s a plugin for that</a>.)</li>
+</ul>
+<p><strong>Developers: </strong>We love you. We do. And one of the things we strive to do with every release is be compatible with all existing plugins and themes. To make sure we don&#8217;t break anything, we need your help. <strong>Please, please test your plugins and themes against 3.5.</strong> If something isn&#8217;t quite right, please let us know. (Chances are, it wasn&#8217;t intentional.) And despite all of the changes to media, we&#8217;re still aiming to be backwards compatible with plugins that make changes to the existing media library. It&#8217;s a tall task, and it means we need your help.</p>
+<p>Here&#8217;s some more things we think developers will enjoy (and should test their plugins and themes against):</p>
+<ul>
+<li><strong>External libraries updated:</strong> TinyMCE  3.5.6. SimplePie 1.3. jQuery 1.8.2. jQuery UI 1.9 (and it&#8217;s not even released yet). We&#8217;ve also added Backbone 0.9.2 and Underscore 1.3.3, and you can use protocol-relative links when enqueueing scripts and styles. (<a href="http://core.trac.wordpress.org/ticket/16560">#16560</a>)</li>
+<li><strong>WP Query:</strong> You can now ask to receive posts in the order specified by <code>post__in</code>. (<a href="http://core.trac.wordpress.org/ticket/13729">#13729</a>)</li>
+<li><strong>XML-RPC:</strong> New user management, profile editing, and post revision methods. We&#8217;ve also removed AtomPub. (<a href="http://core.trac.wordpress.org/ticket/18428">#18428</a>, <a href="http://core.trac.wordpress.org/ticket/21397">#21397</a>, <a href="http://core.trac.wordpress.org/ticket/21866">#21866</a>)</li>
+<li><strong>Multisite: </strong>switch_to_blog() is now used in more places, is faster, and more reliable. Also: You can now use multisite in a subdirectory, and uploaded files no longer go through ms-files (for new installs). (<a href="http://core.trac.wordpress.org/ticket/21434">#21434</a>, <a href="http://core.trac.wordpress.org/ticket/19796">#19796</a>, <a href="http://core.trac.wordpress.org/ticket/19235">#19235</a>)</li>
+<li><strong>TinyMCE: </strong>We&#8217;ve added API support for &#8220;views&#8221; which you can use to offer previews and interaction of elements from the visual editor. (<a href="http://core.trac.wordpress.org/ticket/21812">#21812</a>)</li>
+<li><strong>Posts API: </strong>Major performance improvements when working with hierarchies of pages and post ancestors. Also, you can now &#8220;turn on&#8221; native custom columns for taxonomies on edit post screens. (<a href="http://core.trac.wordpress.org/ticket/11399">#11399</a>, <a href="http://core.trac.wordpress.org/ticket/21309">#21309</a>, <a href="http://core.trac.wordpress.org/ticket/21240">#21240</a>)</li>
+<li><strong>Comments API:</strong> Search for comments of a particular status, or with a meta query (same as with WP_Query). (<a href="http://core.trac.wordpress.org/ticket/21101">#21101</a>, <a href="http://core.trac.wordpress.org/ticket/21003">#21003</a>)</li>
+<li><strong>oEmbed: </strong>We&#8217;ve added support for a few oEmbed providers, and we now handle SSL links. (<a href="http://core.trac.wordpress.org/ticket/15734">#15734</a>, <a href="http://core.trac.wordpress.org/ticket/21635">#21635</a>, <a href="http://core.trac.wordpress.org/ticket/16996">#16996</a>, <a href="http://core.trac.wordpress.org/ticket/20102">#20102</a>)</li>
+</ul>
+<p>We&#8217;re looking forward to your feedback. If you break it (find a bug), please report it, and if you’re a developer, try to help us fix it. We&#8217;ve already had more than 200 contributors to version 3.5 — come join us!</p>
+<h3>And as promised, a bonus:</h3>
+<p>We&#8217;re planning a December 5 release for WordPress 3.5. But, we have a special offering for you, today. The newest default theme for WordPress, <strong>Twenty</strong><strong> Twelve</strong>, is now <a href="http://wordpress.org/extend/themes/twentytwelve">available for download</a> from the WordPress themes directory. It&#8217;s a gorgeous and fully responsive theme, and it works with WordPress 3.4.2. Take it for a spin!</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/09/wordpress-3-5-beta-1/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2443"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/09/wordpress-3-5-beta-1/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2443"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/09/wordpress-3-5-beta-1/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/09/wordpress-3-5-beta-1/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/09/wordpress-3-4-2/">WordPress 3.4.2 Maintenance and Security Release</a></h2>
+
+<div class="meta">Posted September 6, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>, <a href="http://wordpress.org/news/category/security/" title="View all posts in Security" rel="category tag">Security</a>. </div>
+ <div class="storycontent">
+	<p>WordPress 3.4.2, now available for download, is a maintenance and security release for all previous versions.</p>
+<p>After nearly 15 million downloads since 3.4 was released not three months ago, we&#8217;ve <a href="http://core.trac.wordpress.org/query?status=closed&amp;resolution=fixed&amp;milestone=3.4.2&amp;group=resolution&amp;order=severity&amp;desc=1">identified and fixed a number of nagging bugs</a>, including:</p>
+<ul>
+<li>Fix some issues with older browsers in the administration area.</li>
+<li>Fix an issue where a theme may not preview correctly, or its screenshot may not be displayed.</li>
+<li>Improve plugin compatibility with the visual editor.</li>
+<li>Address pagination problems with some category permalink structures.</li>
+<li>Avoid errors with both oEmbed providers and trackbacks.</li>
+<li>Prevent improperly sized header images from being uploaded.</li>
+</ul>
+<p>Version 3.4.2 also fixes a few security issues and contains some security hardening. The vulnerabilities included potential privilege escalation and a bug that affects multisite installs with untrusted users. These issues were discovered and fixed by the WordPress security team.</p>
+<p><a href="http://wordpress.org/download/"><strong>Download 3.4.2</strong></a><strong> now or visit Dashboard → Updates in your site admin to update now.</strong></p>
+<p><em>Fixes for some bugs<br />
+Back to work on 3.5<br />
+It&#8217;s time to update</em></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/09/wordpress-3-4-2/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2426"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/09/wordpress-3-4-2/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2426"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/09/wordpress-3-4-2/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/09/wordpress-3-4-2/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/07/event-organizers-unite/">Event Organizers Unite!</a></h2>
+
+<div class="meta">Posted July 13, 2012 by <a href="http://profiles.wordpress.org/users/jane/">Jane Wells</a>. Filed under <a href="http://wordpress.org/news/category/community/" title="View all posts in Community" rel="category tag">Community</a>, <a href="http://wordpress.org/news/category/events/" title="View all posts in Events" rel="category tag">Events</a>. </div>
+ <div class="storycontent">
+	<p>I&#8217;m happy to announce the formation of a new official contributor group within the WordPress project for the organizers of in-person events that promote WordPress. Though there are hundreds of people around the globe organizing WordCamps, WordPress meetups, hackathons, free classes and the like, since their &#8220;projects&#8221; were all happening locally there was never a central hub of activity for these folks. Despite the many informal connections between community organizers, we weren&#8217;t taking advantage of the huge existing knowledge base as new organizers stepped up to the plate.</p>
+<p>With the creation of <a href="http://make.wordpress.org/events/">this new contributor group</a>, we finally have a way to organize and recognize these kinds of contributions, a clear avenue for feedback and input when it comes to policies around official events, and the opportunity to create even more connections between community organizers through mentorship programs and group projects. I&#8217;m especially excited about the creation of this group because until now the role of community organizer, while one of the most important, has not gotten the same recognition as higher-profile contribution methods such as forum support or core code contribution. That is something I hope this group will change, and the local organizers can be recognized for the community leaders they are.*</p>
+<p>If you are the organizer of a local WordCamp, WordPress meetup, etc., head over to <a href="http://make.wordpress.org/events/">http://make.wordpress.org/events/</a> and introduce yourself so we can include you in the fun!</p>
+<p>Speaking of meetups, an update on <a href="http://wordpress.org/news/2012/01/year-of-the-meetup/">my last post about meetups</a> is long overdue. With around 500 meetup organizers (and/or potential organizers) responding to my last survey, it took much longer than anticipated to review all the responses. We&#8217;re working now with meetup.com to issue invitations to join a centralized WordPress Meetup account, so if you filled out the form earlier this year, you should be hearing from them soon. The first wave of existing meetup account transfers (for those who opted in) should happen in the next two weeks, with additional waves every 3 months thereafter (and new groups will be able to be created along the way).</p>
+<p>The <a href="http://wordpress.org/news/2012/05/calling-all-contributors-community-summit-2012/">contributor summit</a> that is being planned for the end of October also generated hundreds of responses/nominations, so that review process is still happening, but we should be announcing some basic plans and issuing invitations soon.</p>
+<p>And finally, it would be impossible to talk about in-person WordPress events without mentioning the upcoming annual <a href="http://2012.sf.wordcamp.org">WordCamp in San Francisco</a>. As the event that represents the worldwide project as a whole, it&#8217;s the perfect time to evaluate where we stand as a project and as a community, to help determine where we go next. If you&#8217;re a WordPress user, developer, or in any way a part of our vast and interconnected ecosystem, please take a moment to fill in the <a href="http://wpsurvey.polldaddy.com/s/wp-2012">2nd annual WordPress survey</a>. It&#8217;s just a couple of questions, and your input would be greatly appreciated. The results of the survey will be announced at <a href="http://2012.sf.wordcamp.org">WSCF</a>, and a report issued shortly thereafter.</p>
+<p>Thanks!</p>
+<p>*<em> I am also of the firm belief that academic and arts activities should earn varsity letters just like sports teams do &#8212; go mathletes! </em></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/07/event-organizers-unite/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2412"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/07/event-organizers-unite/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2412"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/07/event-organizers-unite/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/07/event-organizers-unite/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/06/wordpress-3-4-1/">WordPress 3.4.1 Maintenance and Security Release</a></h2>
+
+<div class="meta">Posted June 27, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>, <a href="http://wordpress.org/news/category/security/" title="View all posts in Security" rel="category tag">Security</a>. </div>
+ <div class="storycontent">
+	<p>WordPress 3.4.1 is now available for download. WordPress 3.4 has been a very smooth release, and copies are flying off the shelf &#8212; 3 million downloads in two weeks! This maintenance release addresses <a href="http://core.trac.wordpress.org/query?status=closed&amp;resolution=fixed&amp;milestone=3.4.1&amp;group=resolution&amp;order=severity&amp;desc=1">18 bugs</a> with version 3.4, including:</p>
+<ul>
+<li>Fixes an issue where a theme&#8217;s page templates were sometimes not detected.</li>
+<li>Addresses problems with some category permalink structures.</li>
+<li>Better handling for plugins or themes loading JavaScript incorrectly.</li>
+<li>Adds early support for uploading images on iOS 6 devices.</li>
+<li>Allows for a technique commonly used by plugins to detect a network-wide activation.</li>
+<li>Better compatibility with servers running certain versions of PHP (5.2.4, 5.4) or with uncommon setups (safe mode, open_basedir), which had caused warnings or in some cases prevented emails from being sent.</li>
+</ul>
+<p>Version 3.4.1 also fixes a few security issues and contains some security hardening. The vulnerabilities included potential information disclosure as well as an bug that affects multisite installs with untrusted users. These issues were discovered and fixed by the WordPress security team.</p>
+<p><strong><a href="http://wordpress.org/download/">Download 3.4.1</a> now or visit Dashboard → Updates in your site admin to update now.</strong></p>
+<p><em>Green was a bit green<br />
+We have hardened it up some<br />
+Update WordPress now</em></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-1/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2383"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-1/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2383"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/06/wordpress-3-4-1/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-1/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/06/green/">WordPress 3.4 &#8220;Green&#8221;</a></h2>
+
+<div class="meta">Posted June 13, 2012 by <a href="http://ma.tt/">Matt Mullenweg</a>. Filed under <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>. </div>
+ <div class="storycontent">
+	<p>WordPress 3.4 is <a href="http://wordpress.org/download/">here and out the door</a>. We&#8217;ve dubbed this release &#8220;Green&#8221; in honor of guitarist <a href="http://en.wikipedia.org/wiki/Grant_Green">Grant Green</a> whose soulful simplicity has kept many of us company during this release.</p>
+<p>This release includes significant improvements to theme customization, custom headers, Twitter embeds, and image captions &#8212; here&#8217;s a short clip with the highlights:</p>
+<div id="v-Gg0EFixV-1" class="video-player"><div id="v-Gg0EFixV-1-placeholder" class="videopress-placeholder" style="width:692px;height:388px;display:none;cursor:pointer !important;position:relative;background-color:#000000;font-family: 'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;font-weight:bold;font-size:18px">
+<div class="videopress-title" style="display:inline;position:absolute;margin:20px 20px 0 20px;padding:4px 8px;vertical-align:top;text-align:left" dir="ltr" lang="en"><span style="padding:3px 0;line-height:1.5em;background-color:#000000;color:rgb(255,255,255)">Introducing WordPress 3.4 &quot;Green&quot;</span></div><img class="videopress-poster" alt="Introducing WordPress 3.4 &quot;Green&quot;" title="Watch: Introducing WordPress 3.4 &quot;Green&quot;" src="http://videos.videopress.com/Gg0EFixV/3-4-release-2_scruberthumbnail_0.jpg" width="692" height="388" />
+<div class="play-button"><span style="z-index:2;display:block;position:absolute;top:50%;left:50%;text-align:center;vertical-align:middle;color:rgb(255,255,255);opacity:0.9;margin:0 0 0 -0.45em;padding:0;line-height:0;font-size:500%;text-shadow:0 0 40px rgba(0,0,0,0.5)">&#9654;</span></div>
+<div style="position:relative;margin-top:-40px;height:25px;margin-bottom:35px;margin-right:20px;text-align:right;vertical-align:bottom;z-index:3"><img alt="" src="http://wptv.files.wordpress.com/2010/07/wptv.png" width="90" height="13" style="background-color:transparent;background-image:none;background-repeat:no-repeat;border:none;margin:0;padding:0"/></div>
+<script type="text/javascript">
+if ( !jQuery.VideoPress.data["Gg0EFixV"] ) { jQuery.VideoPress.data["Gg0EFixV"] = new Array(); }
+jQuery.VideoPress.data["Gg0EFixV"][1]={"blog":5089392,"post":11211,"duration":78,"poster":"http:\/\/videos.videopress.com\/Gg0EFixV\/3-4-release-2_scruberthumbnail_0.jpg","mp4":{"size":"dvd","uri":"http:\/\/videos.videopress.com\/Gg0EFixV\/3-4-release-2_dvd.mp4"},"ogv":{"size":"std","uri":"http:\/\/videos.videopress.com\/Gg0EFixV\/3-4-release-2_fmt1.ogv"},"locale":{"dir":"ltr","lang":"en"}};
+jQuery("#v-Gg0EFixV-1-placeholder").show(0,function(){jQuery.VideoPress.analytics.impression("Gg0EFixV")});
+if ( jQuery.VideoPress.video.prepare("Gg0EFixV", {width:692,height:388,container:jQuery("#v-Gg0EFixV-1")},1) ) {
+jQuery("#v-Gg0EFixV-1-placeholder").one("click",function(){jQuery.VideoPress.video.play(jQuery("#v-Gg0EFixV-1"))});}</script>
+</div>
+<noscript><p>JavaScript required to play <a hreflang="en" type="video/mp4" href="http://videos.videopress.com/Gg0EFixV/3-4-release-2_dvd.mp4">Introducing WordPress 3.4 &quot;Green&quot;</a>.</p></noscript></div>
+<h3>For Users</h3>
+<p>The biggest change in 3.4 is the <strong>theme customizer</strong> which allows you to play around with various looks and settings for your current theme or one you&#8217;re thinking about switching to without publishing those changes to the whole world. For themes that support it, you can change colors, backgrounds, and of course custom image headers. We have more planned for the customizer down the road.</p>
+<p>Throughout the rest of the admin you&#8217;ll notice tweaks to make your everyday life easier. For example, if you have lots of themes we&#8217;ve made it quicker to browse them all at once without paging. We&#8217;ve made it possible to use images from your media library to populate custom headers, and for you to choose the height and width of your header images.</p>
+<p>We&#8217;ve expanded our embed support to include tweets: just put a Twitter permalink on its own line in the post editor and we&#8217;ll turn it into a beautiful embedded Tweet. And finally, image captions have been improved to allow HTML, like links, in them.</p>
+<h3>For Developers</h3>
+<p>There are hundreds of under-the-hood improvements in this release, notably in the XML-RPC, themes, and custom header APIs, and significant performance improvements in WP_Query and the translation system. <a href="http://codex.wordpress.org/Version_3.4">The Codex has a pretty good summary of the developer features</a>, and you can always <a href="http://core.trac.wordpress.org/milestone/3.4">dive into Trac directly</a>.</p>
+<p>We&#8217;ve also <a href="http://wpdevel.wordpress.com/2012/06/07/wordpress-3-4-field-guide-for-developers/">put together a busy developer&#8217;s field guide to the new APIs in 3.4</a>.</p>
+<h3>It takes a village</h3>
+<p>Here are some of the fine folks who were involved in bringing 3.4 to the world:</p>
+<p><a href="http://profiles.wordpress.org/082net">082net</a>, <a href="http://profiles.wordpress.org/aaroncampbell">Aaron D. Campbell</a>, <a href="http://profiles.wordpress.org/kawauso">Adam Harley</a>, <a href="http://profiles.wordpress.org/ajacommerce">AJ Acevedo</a>, <a href="http://profiles.wordpress.org/akshayagarwal">akshayagarwal</a>, <a href="http://profiles.wordpress.org/xknown">Alex Concha</a>, <a href="http://profiles.wordpress.org/alexkingorg">Alex King</a>, <a href="http://profiles.wordpress.org/viper007bond">Alex Mills (Viper007Bond)</a>, <a href="http://profiles.wordpress.org/ampt">ampt</a>, <a href="http://profiles.wordpress.org/sabreuse">Amy Hendrix</a>, <a href="http://profiles.wordpress.org/andrea_r">Andrea Rennick</a>, <a href="http://profiles.wordpress.org/nacin">Andrew Nacin</a>, <a href="http://profiles.wordpress.org/azaozz">Andrew Ozz</a>, <a href="http://profiles.wordpress.org/andrewryno">Andrew Ryno</a>, <a href="http://profiles.wordpress.org/andy">Andy Skelton</a>, <a href="http://profiles.wordpress.org/arieputranto">Arie Putranto</a>, <a href="http://profiles.wordpress.org/filosofo">Austin Matzko</a>, <a href="http://profiles.wordpress.org/barry">Barry</a>, <a href="http://profiles.wordpress.org/benchapman">BenChapman</a>, <a href="http://profiles.wordpress.org/husobj">Ben Huson</a>, <a href="http://profiles.wordpress.org/benbalter">Benjamin J. Balter</a>, <a href="http://profiles.wordpress.org/billerickson">Bill Erickson</a>, <a href="http://profiles.wordpress.org/bananastalktome">Billy (bananastalktome)</a>, <a href="http://profiles.wordpress.org/boonebgorges">Boone Gorges</a>, <a href="http://profiles.wordpress.org/camiloclc">camiloclc</a>, <a href="http://profiles.wordpress.org/casben79">casben79</a>, <a href="http://profiles.wordpress.org/caspie">Caspie</a>, <a href="http://profiles.wordpress.org/ceefour">ceefour</a>, <a href="http://profiles.wordpress.org/cheald">cheald</a>, <a href="http://profiles.wordpress.org/chellycat">chellycat</a>, <a href="http://profiles.wordpress.org/chexee">Chelsea Otakan</a>, <a href="http://profiles.wordpress.org/chipbennett">Chip Bennett</a>, <a href="http://profiles.wordpress.org/c3mdigital">Chris Olbekson</a>, <a href="http://profiles.wordpress.org/coenjacobs">Coen Jacobs</a>, <a href="http://profiles.wordpress.org/scribu">Cristi Burc&#259;</a>, <a href="http://profiles.wordpress.org/cyapow">Cyapow</a>, <a href="http://profiles.wordpress.org/djcp">Dan Collis-Puro</a>, <a href="http://profiles.wordpress.org/danielbachhuber">Daniel Bachhuber</a>, <a href="http://profiles.wordpress.org/convissor">Daniel Convissor</a>, <a href="http://profiles.wordpress.org/redsweater">Daniel Jalkut (Red Sweater)</a>, <a href="http://profiles.wordpress.org/daniloercoli">daniloercoli</a>, <a href="http://profiles.wordpress.org/koopersmith">Daryl Koopersmith</a>, <a href="http://profiles.wordpress.org/dgwyer">David Gwyer</a>, <a href="http://profiles.wordpress.org/deltafactory">deltafactory</a>, <a href="http://profiles.wordpress.org/demetris">demetris</a>, <a href="http://profiles.wordpress.org/dd32">Dion Hulse</a>, <a href="http://profiles.wordpress.org/dllh">dllh</a>, <a href="http://profiles.wordpress.org/ocean90">Dominik Schilling</a>, <a href="http://profiles.wordpress.org/dougwrites">Doug Provencio</a>, <a href="http://profiles.wordpress.org/drewapicture">Drew Jaynes (DrewAPicture)</a>, <a href="http://profiles.wordpress.org/ebababi">ebababi</a>, <a href="http://profiles.wordpress.org/edward-mindreantre">edward-mindreantre</a>, <a href="http://profiles.wordpress.org/emhr">emhr</a>, <a href="http://profiles.wordpress.org/empireoflight">Empireoflight</a>, <a href="http://profiles.wordpress.org/ericlewis">Eric Andrew Lewis</a>, <a href="http://profiles.wordpress.org/ericmann">Eric Mann</a>, <a href="http://profiles.wordpress.org/ejdanderson">Evan Anderson</a>, <a href="http://profiles.wordpress.org/evansolomon">Evan Solomon</a>, <a href="http://profiles.wordpress.org/fredwu">Fred Wu</a>, <a href="http://profiles.wordpress.org/ounziw">Fumito Mizuno</a>, <a href="http://profiles.wordpress.org/garyc40">Gary Cao</a>, <a href="http://profiles.wordpress.org/garyj">Gary Jones</a>, <a href="http://profiles.wordpress.org/gautamgupta">Gautam</a>, <a href="http://profiles.wordpress.org/soulseekah">Gennady Kovshenin</a>, <a href="http://profiles.wordpress.org/mamaduka">George Mamadashvili</a>, <a href="http://profiles.wordpress.org/georgestephanis">George Stephanis</a>, <a href="http://profiles.wordpress.org/webord">Gustavo Bordoni</a>, <a href="http://profiles.wordpress.org/hearvox">hearvox</a>, <a href="http://profiles.wordpress.org/helenyhou">Helen Hou-Sandi</a>, <a href="http://profiles.wordpress.org/hugobaeta">Hugo Baeta</a>, <a href="http://profiles.wordpress.org/iandstewart">Ian Stewart</a>, <a href="http://profiles.wordpress.org/insertvisionhere">insertvisionhere</a>, <a href="http://profiles.wordpress.org/ipstenu">Ipstenu</a>, <a href="http://profiles.wordpress.org/master-jake">Jacob Chappell</a>, <a href="http://profiles.wordpress.org/jane">Jane Wells</a>, <a href="http://profiles.wordpress.org/japh">Japh</a>, <a href="http://profiles.wordpress.org/jaquers">jaquers</a>, <a href="http://profiles.wordpress.org/jarretc">JarretC</a>, <a href="http://profiles.wordpress.org/jeremyclarke">jeremyclarke</a>, <a href="http://profiles.wordpress.org/jeremyfelt">Jeremy Felt</a>, <a href="http://profiles.wordpress.org/jayjdk">Jesper Johansen (Jayjdk)</a>, <a href="http://profiles.wordpress.org/jiehanzheng">Jiehan Zheng</a>, <a href="http://profiles.wordpress.org/intoxstudio">Joachim Jensen (Intox Studio)</a>, <a href="http://profiles.wordpress.org/jkudish">Joachim Kudish (jkudish)</a>, <a href="http://profiles.wordpress.org/johnbillion">John Blackbourn (johnbillion)</a>, <a href="http://profiles.wordpress.org/aldenta">John Ford</a>, <a href="http://profiles.wordpress.org/johnjamesjacoby">John James Jacoby</a>, <a href="http://profiles.wordpress.org/duck_">Jon Cave</a>, <a href="http://profiles.wordpress.org/joostdevalk">Joost de Valk</a>, <a href="http://profiles.wordpress.org/koke">Jorge Bernal</a>, <a href="http://profiles.wordpress.org/josephscott">Joseph Scott</a>, <a href="http://profiles.wordpress.org/devesine">Justin</a>, <a href="http://profiles.wordpress.org/justindgivens">Justin Givens</a>, <a href="http://profiles.wordpress.org/trepmal">Kailey Lampert (trepmal)</a>, <a href="http://profiles.wordpress.org/kenan3008">Kenan Dervisevic</a>, <a href="http://profiles.wordpress.org/kovshenin">Konstantin Kovshenin</a>, <a href="http://profiles.wordpress.org/kobenland">Konstantin Obenland</a>, <a href="http://profiles.wordpress.org/klagraff">Kristopher Lagraff</a>, <a href="http://profiles.wordpress.org/kurtpayne">Kurt Payne</a>, <a href="http://profiles.wordpress.org/lancewillett">Lance Willett</a>, <a href="http://profiles.wordpress.org/lardjo">Lardjo</a>, <a href="http://profiles.wordpress.org/leewillis77">Lee Willis (leewillis77)</a>, <a href="http://profiles.wordpress.org/linuxologos">linuxologos</a>, <a href="http://profiles.wordpress.org/latz">Lutz Schroer</a>, <a href="http://profiles.wordpress.org/settle">Mantas Malcius</a>, <a href="http://profiles.wordpress.org/netweblogic">Marcus</a>, <a href="http://profiles.wordpress.org/markjaquith">Mark Jaquith</a>, <a href="http://profiles.wordpress.org/markoheijnen">Marko Heijnen</a>, <a href="http://profiles.wordpress.org/markauk">Mark Rowatt Anderson</a>, <a href="http://profiles.wordpress.org/matveb">Matias Ventura</a>, <a href="http://profiles.wordpress.org/sivel">Matt Martz</a>, <a href="http://profiles.wordpress.org/mattonomics">mattonomics</a>, <a href="http://profiles.wordpress.org/iammattthomas">Matt Thomas</a>, <a href="http://profiles.wordpress.org/mattwiebe">Matt Wiebe</a>, <a href="http://profiles.wordpress.org/mattyrob">MattyRob</a>, <a href="http://profiles.wordpress.org/maxcutler">Max Cutler</a>, <a href="http://profiles.wordpress.org/merty">Mert Yazicioglu</a>, <a href="http://profiles.wordpress.org/mgolawala">mgolawala</a>, <a href="http://profiles.wordpress.org/mdawaffe">Michael Adams (mdawaffe)</a>, <a href="http://profiles.wordpress.org/tw2113">Michael Beckwith</a>, <a href="http://profiles.wordpress.org/mfields">Michael Fields</a>, <a href="http://profiles.wordpress.org/mikeschinkel">Mike Schinkel</a>, <a href="http://profiles.wordpress.org/dh-shredder">Mike Schroder</a>, <a href="http://profiles.wordpress.org/toppa">Mike Toppa</a>, <a href="http://profiles.wordpress.org/dimadin">Milan Dinic</a>, <a href="http://profiles.wordpress.org/mitchoyoshitaka">mitcho (Michael Yoshitaka Erlewine)</a>, <a href="http://profiles.wordpress.org/batmoo">Mohammad Jangda</a>, <a href="http://profiles.wordpress.org/mrtorrent">mrtorrent</a>, <a href="http://profiles.wordpress.org/namely">Name.ly</a>, <a href="http://profiles.wordpress.org/Nao">Naoko McCracken</a>, <a href="http://profiles.wordpress.org/alex-ye">Nashwan Doaqan</a>, <a href="http://profiles.wordpress.org/niallkennedy">Niall Kennedy</a>, <a href="http://profiles.wordpress.org/nikolayyordanov">Nikolay Yordanov</a>, <a href="http://profiles.wordpress.org/norocketsurgeon">norocketsurgeon</a>, <a href="http://profiles.wordpress.org/npetetin">npetetin</a>, <a href="http://profiles.wordpress.org/nunomorgadinho">Nuno Morgadinho</a>, <a href="http://profiles.wordpress.org/ocollet">Olivier Collet</a>, <a href="http://profiles.wordpress.org/pbiron">Paul Biron</a>, <a href="http://profiles.wordpress.org/pavelevap">pavelevap</a>, <a href="http://profiles.wordpress.org/petemall">Pete Mall</a>, <a href="http://profiles.wordpress.org/westi">Peter Westwood</a>, <a href="http://profiles.wordpress.org/pishmishy">pishmishy</a>, <a href="http://profiles.wordpress.org/nprasath002">Prasath Nadarajah</a>, <a href="http://profiles.wordpress.org/prettyboymp">prettyboymp</a>, <a href="http://profiles.wordpress.org/ptahdunbar">Ptah Dunbar</a>, <a href="http://profiles.wordpress.org/pw201">pw201</a>, <a href="http://profiles.wordpress.org/ramiy">Rami Yushuvaev</a>, <a href="http://profiles.wordpress.org/rarst">Rarst</a>, <a href="http://profiles.wordpress.org/arena">RENAUT</a>, <a href="http://profiles.wordpress.org/greuben">Reuben Gunday</a>, <a href="http://profiles.wordpress.org/roscius">Roscius</a>, <a href="http://profiles.wordpress.org/rosshanney">Ross Hanney</a>, <a href="http://profiles.wordpress.org/russellwwest">russellwwest</a>, <a href="http://profiles.wordpress.org/ryan">Ryan Boren</a>, <a href="http://profiles.wordpress.org/ryanduff">Ryan Duff</a>, <a href="http://profiles.wordpress.org/rmccue">Ryan McCue</a>, <a href="http://profiles.wordpress.org/zeo">Safirul Alredha</a>, <a href="http://profiles.wordpress.org/solarissmoke">Samir Shah</a>, <a href="http://profiles.wordpress.org/otto42">Samuel &#8220;Otto&#8221; Wood</a>, <a href="http://profiles.wordpress.org/tenpura">Seisuke Kuraishi</a>, <a href="http://profiles.wordpress.org/sergeybiryukov">Sergey Biryukov</a>, <a href="http://profiles.wordpress.org/simonwheatley">Simon Wheatley</a>, <a href="http://profiles.wordpress.org/sirzooro">sirzooro</a>, <a href="http://profiles.wordpress.org/sksmatt">sksmatt</a>, <a href="http://profiles.wordpress.org/sushkov">Stas Su&#537;kov</a>, <a href="http://profiles.wordpress.org/stephdau">Stephane Daury (stephdau)</a>, <a href="http://profiles.wordpress.org/tamlyn">tamlyn</a>, <a href="http://profiles.wordpress.org/griffinjt">Thomas Griffin</a>, <a href="http://profiles.wordpress.org/tott">Thorsten Ott</a>, <a href="http://profiles.wordpress.org/tobiasbg">TobiasBg</a>, <a href="http://profiles.wordpress.org/tomauger">Tom Auger</a>, <a href="http://profiles.wordpress.org/skithund">Toni Viemero</a>, <a href="http://profiles.wordpress.org/transom">transom</a>, <a href="http://profiles.wordpress.org/sorich87">Ulrich Sossou</a>, <a href="http://profiles.wordpress.org/utkarsh">Utkarsh Kukreti</a>, <a href="http://profiles.wordpress.org/wojtekszkutnik">Wojtek Szkutnik</a>, <a href="http://profiles.wordpress.org/wonderslug">wonderslug</a>, <a href="http://profiles.wordpress.org/xibe">Xavier Borderie</a>, <a href="http://profiles.wordpress.org/yoavf">Yoav Farhi</a>, <a href="http://profiles.wordpress.org/thezman84">Zach &#8220;The Z Man&#8221; Abernathy</a>, <a href="http://profiles.wordpress.org/tollmanz">Zack Tollman</a>, <a href="http://profiles.wordpress.org/vanillalounge">Ze Fontainhas</a>, and <a href="http://profiles.wordpress.org/zx2c4">zx2c4</a>.</p>
+<p>See you next time!</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/06/green/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2334"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/06/green/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2334"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/06/green/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/06/green/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-3/">WordPress 3.4 Release Candidate 3</a></h2>
+
+<div class="meta">Posted June 12, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/development/" title="View all posts in Development" rel="category tag">Development</a>, <a href="http://wordpress.org/news/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>. </div>
+ <div class="storycontent">
+	<p>The third release candidate for WordPress 3.4 is now available. Since RC2, we&#8217;ve fixed a few lingering issues with the new live preview feature, as well as with custom headers and backgrounds.</p>
+<p>There are no remaining issues, and we plan to release 3.4 in the coming days. But if you think you&#8217;ve found a bug, you can post to the <a href="http://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums, or file a bug report on <a href="http://core.trac.wordpress.org/">WordPress Trac</a>.</p>
+<p>To test WordPress 3.4, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="http://wordpress.org/wordpress-3.4-RC3.zip">download the release candidate here</a> (zip). Be sure to visit <strong><img style="vertical-align: text-top" src="http://wordpress.org/wp-content/themes/twentyten/images/wordpress.png" alt="" /> → About</strong> for an updated list of features and under-the-hood changes. As a reminder: We’ve published some resources on the <a href="http://wpdevel.wordpress.com/2012/06/07/wordpress-3-4-field-guide-for-developers/">development blog</a> to help plugin and theme developers prepare.</p>
+<p><em>The new live preview<br />
+Nearing perfection, and yet?<br />
+Not yet. RC3</em></p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-3/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2326"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-3/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2326"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-3/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-3/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-2/">WordPress 3.4 Release Candidate 2</a></h2>
+
+<div class="meta">Posted June 7, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/development/" title="View all posts in Development" rel="category tag">Development</a>, <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>, <a href="http://wordpress.org/news/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>. </div>
+ <div class="storycontent">
+	<p>The second release candidate for WordPress 3.4 is now available. Since RC1, we&#8217;ve made a <a href="http://core.trac.wordpress.org/log/?action=stop_on_copy&amp;mode=stop_on_copy&amp;rev=21018&amp;stop_rev=20949&amp;limit=500">few dozen final changes</a>.</p>
+<p>Our goal is to release WordPress 3.4 early next week, so plugin and theme authors, this is likely <strong>your last chance to test your plugins and themes to find any compatibility issues before the final release</strong>. We&#8217;ve published some resources on the <a href="http://wpdevel.wordpress.com/2012/06/07/wordpress-3-4-field-guide-for-developers/">development blog</a> to help you prepare.</p>
+<p>If you think you’ve found a bug, you can post to the <a href="http://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. Or, if you’re comfortable writing a reproducible bug report, <a href="http://core.trac.wordpress.org/">file one on WordPress Trac</a>. Known issues that crop up will be listed <a href="http://core.trac.wordpress.org/report/6">here</a>, but we&#8217;re hoping for a quiet few days so we can get some great features into your hands next week!</p>
+<p>To test WordPress 3.4, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you’ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="http://wordpress.org/wordpress-3.4-RC2.zip">download the release candidate here</a> (zip). Be sure to visit <strong><img src="http://wordpress.org/wp-content/themes/twentyten/images/wordpress.png" alt="" style="vertical-align:text-top" /> &rarr; About</strong> for an updated list of features and under-the-hood changes.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-2/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2318"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-2/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2318"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-2/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/06/wordpress-3-4-release-candidate-2/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/05/wordpress-3-4-release-candidate/">WordPress 3.4 Release Candidate</a></h2>
+
+<div class="meta">Posted May 27, 2012 by <a href="http://nacin.com/">Andrew Nacin</a>. Filed under <a href="http://wordpress.org/news/category/development/" title="View all posts in Development" rel="category tag">Development</a>, <a href="http://wordpress.org/news/category/releases/" title="View all posts in Releases" rel="category tag">Releases</a>, <a href="http://wordpress.org/news/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>. </div>
+ <div class="storycontent">
+	<p>The first release candidate (RC1) for WordPress 3.4 is now available.</p>
+<p>An RC comes after the beta period and before final release. We think we&#8217;re done, but with millions of users and thousands of plugins and themes, it&#8217;s possible we&#8217;ve missed something. So if you haven’t tested WordPress 3.4 yet, now is the time! Please though, not on your live site unless you’re adventurous.</p>
+<p>With more than <a href="http://core.trac.wordpress.org/milestone/3.4">500 tickets closed</a>, there are quite a few changes. <strong>Plugin and theme authors,</strong> please test your plugins and themes now, so that if there is a compatibility issue, we can figure it out before the final release.</p>
+<p>If you are testing the release candidate and think you&#8217;ve found a bug, please post to the <a href="http://wordpress.org/support/forum/alphabeta/">Alpha/Beta area in the support forums</a>. If any known issues crop up, you’ll be able to <a href="http://core.trac.wordpress.org/report/5">find them here</a>.</p>
+<p>To test WordPress 3.4, try the <a href="http://wordpress.org/extend/plugins/wordpress-beta-tester/">WordPress Beta Tester</a> plugin (you&#8217;ll want &#8220;bleeding edge nightlies&#8221;). Or you can <a href="http://wordpress.org/wordpress-3.4-RC1.zip">download the release candidate here (zip)</a>.</p>
+<p>If you&#8217;d like to know which levers to pull in your testing, visit the About page (<strong><img src="http://wordpress.org/wp-content/themes/twentyten/images/wordpress.png" alt="" style="vertical-align:text-top" /> &rarr; About</strong> in the toolbar) and check out the list of features! You&#8217;ll definitely want to try the live theme previews.</p>
+<p><strong>Bonus:</strong> Happy birthday WordPress &#8212; <a href="http://wordpress.org/news/2003/05/wordpress-now-available/">nine years old</a> today.</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/05/wordpress-3-4-release-candidate/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2303"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/05/wordpress-3-4-release-candidate/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2303"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/05/wordpress-3-4-release-candidate/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/05/wordpress-3-4-release-candidate/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<h2 class="fancy"><a href="http://wordpress.org/news/2012/05/plugins-refreshed/">Plugin Directory Refreshed</a></h2>
+
+<div class="meta">Posted May 19, 2012 by <a href="http://ma.tt/">Matt Mullenweg</a>. Filed under <a href="http://wordpress.org/news/category/meta/" title="View all posts in Meta" rel="category tag">Meta</a>. </div>
+ <div class="storycontent">
+	<p>Been hanging out with a few WordPress.org hackers &#8212; Scott, Nacin, and Otto &#8212; the last few days in a BBQ-fueled haze of hacking to make plugin directory better. There are over <a href="http://wordpress.org/extend/plugins/">19,000 plugins listed</a> and they&#8217;re really the heart and soul of WordPress for many people, so they deserve a little tender loving care. Here&#8217;s a quick before and after snapshot you can zoom in on to see a visual overview of some of the changes:</p>
+<p><a href="http://wpdotorg.files.wordpress.com/2012/05/contact-form-7.png"><img src="http://s2.wp.com/imgpress?resize=690,350&amp;url=http://wpdotorg.files.wordpress.com/2012/05/contact-form-7.png&amp;unsharpmask=80,0.5,3" alt="" /></a></p>
+<p>Our first focus was around improving the discussion and support around plugins.</p>
+<p>You&#8217;ll now notice that threads about a plugin are pulled directly into a &#8220;support&#8221; tab on the plugin page &#8212; each plugin has its own forum. We&#8217;ve made authors much more prominent and with bigger Gravatars and better placement, so you can get a sense of who made the plugin you&#8217;re using. And finally to show how active and well-supported a plugin is, you can see  &#8221;16 of 75 support threads in the last two weeks have been resolved.&#8221; Finally, if you&#8217;re logged in you get access to the new &#8220;favorites&#8221; feature that lets you mark the plugins you use the most so you can share them on your profile page and find them quickly later. We soft-launched favorites a few days ago and there have already been 2,000 saved!</p>
+<p>If you&#8217;re a plugin author, we&#8217;ve started with a short threshold (2 weeks) for the resolved stats so it&#8217;s easy to catch up and stay on top of it. (It&#8217;ll eventually go to two months.) You also now have the ability to set stickies on your plugin forum to put FAQs or important information at the top, and of course any person you put as a committer on the plugin will have moderation access. People on the forum tag will see your custom header and links to the other resources attached to your plugin.</p>
+<p>We&#8217;ve tightened up the styling a bit on the forums and plugin pages, though still some cleanups to do there. Some older improvements you might have missed, but are still useful for users and developers alike:</p>
+<ul>
+<li>&#8220;Plugin headers&#8221; or those cool graphics you see at the top of plugin pages have really taken off, there are over 1,600 active now.</li>
+<li>You can now subscribe to get an email whenever a commit is made to a plugin repository even if it isn&#8217;t yours. There is no better way to follow the development of your favorite plugins. There&#8217;s nothing like the smell of fresh changesets in the morning.</li>
+<li>Behind the scenes, we&#8217;ve dramatically ramped up proactive scanning of the entire repository to help authors fix security and other problems they might not even know about yet. The quality level of the repo has gone way, way up.</li>
+</ul>
+<p>All of this will continue to evolve as we get feedback and see usage, but we&#8217;re happy to have been able to make some key improvements in just a few days while hanging out in Memphis. (This is why WordCamps usually have BBQ &#8212; it imparts magical coding powers.)</p>
+<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://wordpress.org/news/2012/05/plugins-refreshed/?share=twitter" target="_blank" title="Click to share on Twitter" id="sharing-twitter-2291"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://wordpress.org/news/2012/05/plugins-refreshed/?share=facebook" target="_blank" title="Share on Facebook" id="sharing-facebook-2291"><span>Facebook</span></a></li><li class="share-google-plus-1"><div class="googleplus1_button"><g:plusone size="medium" callback="sharing_plusone" href="http://wordpress.org/news/2012/05/plugins-refreshed/"></g:plusone></div></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://wordpress.org/news/2012/05/plugins-refreshed/?share=email" target="_blank" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul><div class="sharing-clear"></div></div></div></div></div>
+
+<div class="feedback">
+	<span>Comments Off</span> 
+</div>
+
+
+
+<a href="http://wordpress.org/news/page/2/" >Older Posts &raquo;</a>
+</div>
+<div class="col-3">
+	<div class="blog-categories">
+		<h4>See Also:</h4>
+		<p>For more WordPress news, check out the <a href="http://planet.wordpress.org/">WordPress Planet</a>.</p>
+		<p>There&#8217;s also a <a href="http://wpdevel.wordpress.com/">development P2 blog</a>.</p>
+		<p>To see how active the project is <a href="http://core.trac.wordpress.org/timeline">check out our Trac timeline</a>, it often has 20&#8211;30 updates per day.</p>
+		<h4>Categories</h4>
+		<ul>
+				<li class="cat-item cat-item-14"><a href="http://wordpress.org/news/category/releases/" title="View all posts filed under Releases">Releases</a> (106)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://wordpress.org/news/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (91)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://wordpress.org/news/category/development/" title="View all posts filed under Development">Development</a> (82)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://wordpress.org/news/category/meta/" title="View all posts filed under Meta">Meta</a> (31)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://wordpress.org/news/category/community/" title="View all posts filed under Community">Community</a> (29)
+</li>
+	<li class="cat-item cat-item-15"><a href="http://wordpress.org/news/category/security/" title="View all posts filed under Security">Security</a> (25)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://wordpress.org/news/category/events/" title="View all posts filed under Events">Events</a> (22)
+</li>
+	<li class="cat-item cat-item-18"><a href="http://wordpress.org/news/category/testing/" title="View all posts filed under Testing">Testing</a> (16)
+</li>
+	<li class="cat-item cat-item-22"><a href="http://wordpress.org/news/category/wordcamp/" title="View all posts filed under WordCamp">WordCamp</a> (16)
+</li>
+	<li class="cat-item cat-item-129"><a href="http://wordpress.org/news/category/user-interface/" title="View all posts filed under User Interface">User Interface</a> (14)
+</li>
+		</ul>
+	</div>
+</div>
+</div>
+</div>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2012Octaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wordpress.org/news/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.5-beta2-22252'></script>
+	<div style="display:none">
+	</div>
+
+	<script type="text/javascript">
+		WPCOM_sharing_counts = {"http:\/\/wordpress.org\/news\/2012\/10\/wordpress-3-5-beta-2\/":2458,"http:\/\/wordpress.org\/news\/2012\/09\/wordpress-3-5-beta-1\/":2443,"http:\/\/wordpress.org\/news\/2012\/09\/wordpress-3-4-2\/":2426,"http:\/\/wordpress.org\/news\/2012\/07\/event-organizers-unite\/":2412,"http:\/\/wordpress.org\/news\/2012\/06\/wordpress-3-4-1\/":2383,"http:\/\/wordpress.org\/news\/2012\/06\/green\/":2334,"http:\/\/wordpress.org\/news\/2012\/06\/wordpress-3-4-release-candidate-3\/":2326,"http:\/\/wordpress.org\/news\/2012\/06\/wordpress-3-4-release-candidate-2\/":2318,"http:\/\/wordpress.org\/news\/2012\/05\/wordpress-3-4-release-candidate\/":2303,"http:\/\/wordpress.org\/news\/2012\/05\/plugins-refreshed\/":2291}	</script>
+<script type='text/javascript' src='http://wordpress.org/news/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=20120131'></script>
+		<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function(){
+			jQuery( '.share-twitter' ).click(function(){
+				window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript" charset="utf-8">
+		jQuery(document).ready(function(){
+			jQuery( '.share-facebook' ).click(function(){
+				window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+			<script type="text/javascript" charset="utf-8">
+	function sharing_plusone( obj ) { 
+		jQuery.ajax( {
+			url: 'http://wordpress.org/news/2012/05/plugins-refreshed/?share=google-plus-1',
+			type: 'POST',
+			data: obj
+		} );
+	}
+	</script>
+	<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+	<div id="sharing_email" style="display: none;">
+		<form action="" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="text" name="target_email" id="target_email" value="" />
+			
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+				
+				<label for="source_email">Your Email Address</label>
+				<input type="text" name="source_email" id="source_email" value="" />
+
+						
+			
+			<img style="float: right; display: none" class="loading" src="http://wordpress.org/news/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a href="#cancel" class="sharing_cancel">Cancel</a>
+			
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+			
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201242'></script>
+<div id="fb-root"></div>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({"appId":"121415197926116","channelUrl":"http:\/\/wordpress.org\/news\/?sfc-channel-file=1","status":true,"cookie":true,"xfbml":true,"oauth":true});
+      };
+  (function(d){
+       var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));     
+</script>
+
+	<script src="http://stats.wordpress.com/e-201242.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:1.7',blog:'14607090',post:'0'});
+	var load_cmc = function(){linktracker_init(14607090,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+<div id="footer">
+	<div class="wrapper">
+		<p> 
+			<a href="http://wordpress.org/about/privacy/">Privacy</a> | 
+			<a href="http://wordpress.org/about/license/">License / GPLv2</a>
+            &nbsp; &nbsp; See also: 
+            <a href="http://wordpress.com/?ref=wporg-footer" title="Hassle-free WP hosting">Hosted WordPress.com</a> |
+			<a href="http://wordpress.tv/" title="Videos, tutorials, WordCamps">WordPress.TV Videos</a> |
+			<a href="http://central.wordcamp.org/" title="Find a WordPress event near your home">WordCamp Events</a> |
+			<a href="http://buddypress.org/" title="A set of plugins to transform your WordPress into a social network">BuddyPress Social Layer</a> |
+			<a href="http://bbpress.org/" title="Fast, slick forums built on WordPress">bbPress Forums</a> |
+			<a href="http://jobs.wordpress.net/" title="Find or post WordPress jobs">WP Jobs</a> | 
+            <a href="http://ma.tt/" title="Co-founder of WordPress, an example of what WordPress can do">Matt</a>
+		</p>
+<br />
+<iframe src="http://www.facebook.com/plugins/like.php?app_id=121415197926116&amp;href=http%3A%2F%2Fwww.facebook.com%2Fwordpress&amp;send=false&amp;layout=button_count&amp;width=150&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
+<!-- <div class="g-plusone" data-size="medium" data-href="https://plus.google.com/107188080561309681193"></div> -->
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=WordPress&show_count=false" style="width:150px; height:20px;"></iframe>
+
+		<h6>Code is Poetry</h6>
+	</div>
+</div>
+
+
+<script type="text/javascript">_qoptions={qacct:"p-18-mFEk4J448M"};</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript><img src="http://pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif" style="display: none;" border="0" height="1" width="1" alt=""/></noscript>
+<!-- 34 queries. 0.502 seconds. -->
+<script type="text/javascript" src="http://s.gravatar.com/js/gprofiles.js"></script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script type="text/javascript">
+(function($){
+$(document).ready(function() {
+	$('#footer a').click(function() {
+		if (this.href.indexOf('wordpress.org') == -1 && this.href.indexOf('http') == 0) {
+			recordOutboundLink(this, 'Outbound Links', this.href);
+			return false;
+		}
+	});
+});
+})(jQuery);
+</script>
+</body>
+</html>
