@@ -1614,10 +1614,10 @@ nav  > ul  > li:first-child a {
 .posts article .thumbnail {
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   display: block;
   margin: 0 0 15px;
   height: 125px;
