@@ -25,9 +25,4 @@ $result = syscall('git pull', '/home/webarchivists/webarchivists.org/preprod');
 // send us the output
 mail('hans@webarchivists.org', 'GitHub hook `git pull` result', $result);
 
-// clear APC
-if (apc_clear_cache('opcode') == false) {
-mail('root', 'Unable to apc_clear_cache()', '');
-}
-
 }
