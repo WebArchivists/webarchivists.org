@@ -109,14 +109,16 @@
                 $cat_id = get_query_var('cat');
                 $cat = get_category($cat_id);
             ?>
-            <li><a href="/category/english"<?php if($cat_id === '' || $cat->slug === 'english') : ?>class="active"<?php endif ?>>en</a></li>
+            <li><a href="/category/english"<?php if($cat->slug === 'english') : ?>class="active"<?php endif ?>>en</a></li>
             <li><a href="/category/francais"<?php if($cat->slug === 'francais') : ?>class="active"<?php endif ?>>fr</a></li>
             <?php /*
             <li><a href="#de">de</a></li>
             <li><a href="#es">es</a></li>
             */ ?>
         </ul>
+        <?php /*
         <a href="#" class="help-translation"><?php echo __('Help us to translate !') ?></a>
+        */ ?>
     </header>
     <?php /*
     <div id="first-time">
