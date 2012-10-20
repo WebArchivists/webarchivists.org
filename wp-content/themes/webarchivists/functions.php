@@ -245,5 +245,5 @@ add_filter( 'image_downsize', 'webarchivists_image_downsize', 1, 3 );
  * Taille des images sur les listings de posts
  */
 
-add_image_size( 'category-thumb', 300, 9999 );
+add_image_size( 'category-thumb', 225, 9999 );
 
