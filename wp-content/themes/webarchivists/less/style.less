@@ -28,7 +28,7 @@ body {
 
 @import "fonts";
 body { font: 15px/1em Arial, Helvetica, sans-serif }
-h1, h2, h3, h4, h5, h6, p { line-height: 1.2em }
+h1, h2, h3, h4, h5, h6 { line-height: 1.2em }
 h1, h2, h3, h4, h5, h6 { font-weight: normal }
 h1, h2 { font-family:DINMedium; }
 article p { .hyphens }
@@ -413,11 +413,12 @@ nav {
 #content {
     .post, .page {
         font-size:1.067em;
-        p {
-            line-height: 1.4em;
-        }
+        line-height: 1.4em;
         a {
             font-family: DINMediumAlternate;
+        }
+        ul {
+            list-style : disc;
         }
     }
 }
