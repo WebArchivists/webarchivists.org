@@ -20,10 +20,10 @@ return $output;
 if (!empty($_POST['payload'])) {
 
 // pull from master
-$result = syscall('git pull', '/var/www/example.com');
+$result = syscall('git pull', '/home/webarchivists/webarchivists.org/preprod');
 
 // send us the output
-mail('team@example.com', 'GitHub hook `git pull` result', $result);
+mail('hans@webarchivists.org', 'GitHub hook `git pull` result', $result);
 
 // clear APC
 if (apc_clear_cache('opcode') == false) {
