@@ -1706,15 +1706,18 @@ nav  > ul  > li:first-child a {
   right: 0;
   margin-right: -50px;
 }
+#content .link,
 #content .post,
 #content .page {
   font-size: 1.067em;
   line-height: 1.4em;
 }
+#content .link a,
 #content .post a,
 #content .page a {
   font-family: DINMediumAlternate;
 }
+#content .link ul,
 #content .post ul,
 #content .page ul {
   list-style: disc;
