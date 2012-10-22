@@ -6,11 +6,9 @@ get_header(); ?>
 
 	<?php
 
-	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-    query_posts( array(
-		'post_type' => array( 'post', 'link' ),
-		'paged' => $paged ) // for paging links to work
-	);
+    global $wp_query;
+    $args = array_merge( $wp_query->query_vars, array( 'post_type' => array( 'post', 'link' ) ) );
+    query_posts( $args );
 
 	if ( have_posts() ) : ?>
 
