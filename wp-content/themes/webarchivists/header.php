@@ -12,8 +12,8 @@
 <head>
     <meta charset="utf-8">
 
-    <link rel="shortcut icon" href="img/favicon.png" /> 
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="<?php echo get_bloginfo('template_directory') ?>/img/favicon.png" /> 
+    <link rel="apple-touch-icon" href="<?php echo get_bloginfo('template_directory') ?>/img/apple-touch-icon.png" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
