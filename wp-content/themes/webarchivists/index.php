@@ -3,7 +3,16 @@
 get_header(); ?>
 
     <section id="news" class="posts">
-	<?php if ( have_posts() ) : ?>
+
+	<?php
+
+	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+    query_posts( array(
+		'post_type' => array( 'post', 'link' ),
+		'paged' => $paged ) // for paging links to work
+	);
+
+	if ( have_posts() ) : ?>
 
 		<!--
 		<?php while ( have_posts() ) : ?>
