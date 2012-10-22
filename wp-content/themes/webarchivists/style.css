@@ -1728,6 +1728,9 @@ nav  > ul  > li:first-child a {
 #about-webarchivists {
   margin: 2% 0;
 }
+#about-webarchivists .attachment-post-thumbnail {
+  max-width: 96%;
+}
 #about-webarchivists .intro h1 {
   font-size: 1em;
   -webkit-column-span: all;
