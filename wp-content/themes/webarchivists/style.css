@@ -1799,7 +1799,7 @@ body.error404 .error404 {
 body.page .page .attachment-post-thumbnail,
 body.error404 .error404 .attachment-post-thumbnail {
   display: block;
-  max-width: 96%;
+  max-width: 100%;
   margin: 0 auto 2%;
 }
 body.page .page .intro,
