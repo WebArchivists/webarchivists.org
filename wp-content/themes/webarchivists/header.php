@@ -84,7 +84,7 @@
         </a>
         <ul class="social">
             <li><a title="RSS Feed" class="rss" href="<?php bloginfo('rss2_url'); ?>"><?php echo __('RSS Feed') ?></a></li>
-            <li><a title="<?php echo __('Contact us by mail') ?>" class="mail" href="/contact">Mail</a></li>
+            <li><a title="<?php echo __('Contact us by mail') ?>" class="mail" href="mailto:<?php echo antispambot( 'team@webarchivists.org', true ) ?>"><?php echo antispambot( 'team@webarchivists.org' ) ?></a></li>
             <li><a title="<?php echo __('WebArchivists on Twitter') ?>" class="twitter" href="http://twitter.com/webarchivists">Twitter</a></li>
             <li><a title="<?php echo __('WebArchivists on Facebook') ?>" class="facebook" href="http://www.facebook.com/webarchivists">Facebook</a></li>
         </ul>
