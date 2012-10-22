@@ -1188,14 +1188,6 @@ h1,
 h2 {
   font-family: DINMedium;
 }
-article p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
-  -webkit-hyphenate-limit-before: 3;
-}
 html {
   background: #e7edf3 url(css/img/footer/bg-wide.png) repeat-x center bottom;
 }
