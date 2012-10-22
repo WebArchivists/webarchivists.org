@@ -32,5 +32,9 @@ $(function(){
         $("html, body").stop().animate( { scrollTop: 0 }, 400, "easeOutQuad" );
         e.preventDefault();
     });
+    
+    $('a[rel="external"]').click(function(){
+        $(this).attr('target', '_blank');
+    });
 
 });
