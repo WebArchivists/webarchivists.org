@@ -40,7 +40,7 @@
 		echo ' | ' . sprintf( __( 'Page %s', 'webarchivists' ), max( $paged, $page ) );
 
 	?></title>
-    <meta name="description" content="<?php bloginfo("description"); ?>
+    <meta name="description" content="<?php bloginfo("description"); ?>" />
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
