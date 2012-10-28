@@ -1209,6 +1209,9 @@ a:hover {
 p {
   margin: 1.2em 0;
 }
+blockquote {
+  padding: 1em;
+}
 #header {
   margin: 0 auto;
   padding: 2% 2% 0;
